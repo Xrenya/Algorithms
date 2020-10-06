@@ -7,6 +7,6 @@ Find	a	local	minimum	or	maximum	in	a	terrain	by	sampling.
 - [ ] 2D	algorithms
 - [ ] Divide	&	conquer
 
-## Reference 
+### Reference 
 1. [MIT 6.006 Introduction to Algorithms](https://courses.csail.mit.edu/6.006/spring11/lectures/lec02.pdf)
 2. Introduction To Algorithms. Thomas H. Cormen
