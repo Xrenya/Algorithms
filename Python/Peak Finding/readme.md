@@ -1,5 +1,5 @@
 ### Problem: 
-Find	a	local	minimum	or	maximum	in	a	terrain	by	sampling.
+Find	a	local	minimum	or	maximum	in an array	by	sampling.
 
 ### Peak finding 
 
