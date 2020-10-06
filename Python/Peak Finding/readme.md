@@ -1,3 +1,6 @@
+### Problem: 
+Find	a	local	minimum	or	maximum	in	a	terrain	by	sampling.
+
 ### Peak finding 
 
 - [ ] 1D	algorithms
