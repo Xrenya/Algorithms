@@ -2,7 +2,7 @@
 A pure Python implementation of the insertion sort algorithm.
 """
 
-class InsertationSort:
+def InsertationSort(array: list, ascending=True) -> list:
   """A Python implementation of the insertion sort algorithm
     :param array: some mutable ordered collection with heterogeneous
     comparable items inside
@@ -26,25 +26,20 @@ class InsertationSort:
     >>> InsertationSort(array).sort() == sorted(array)
     True
     """
-  def __init__(self, array: list, ascending=True) -> list:
-    self.array = array
-    self.ascending = ascending
-
-  def sort(self):
-    if self.ascending:
-      for j in range(1, len(self.array)):
-        key = self.array[j]
-        i = j - 1
-        while (i>-1) and (self.array[i]<key):
-          self.array[i+1] = self.array[i]
-          i -= 1
-        self.array[i+1] = key
-    else:
-      for j in range(1, len(self.array)):
-        key = self.array[j]
-        i = j - 1
-        while (i>-1) and (self.array[i]>key):
-          self.array[i+1] = self.array[i]
-          i -= 1
-        self.array[i+1] = key
-    return self.array
+  if ascending:
+    for j in range(1, len(array)):
+      key = array[j]
+      i = j - 1
+      while (i>-1) and (array[i]>key):
+        array[i+1] = array[i]
+        i -= 1
+      array[i+1] = key
+  else:
+    for j in range(1, len(array)):
+      key = array[j]
+      i = j - 1
+      while (i>-1) and (array[i]<key):
+        array[i+1] = array[i]
+        i -= 1
+      array[i+1] = key
+  return array
