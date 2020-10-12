@@ -9,21 +9,23 @@ def InsertationSort(array: list, ascending=True) -> list:
     :param ascending: boolean value whether is ascending or descending order.
     :return: the same collection ordered by ascending
     Examples:
-    >>> InsertationSort([5, 4, 3, 2, 1]).sort()
+    >>> InsertationSort([5, 4, 3, 2, 1])
     [0, 1, 2, 3, 4, 5]
-    >>> insertion_sort([]) == sorted([])
+    >>> InsertationSort([5, 4, 3, 2, 1], ascending=False)
+    [5, 4, 3, 2, 1, 0]
+    >>> InsertationSort([]) == sorted([])
     True
-    >>> InsertationSort([5, -423, 3, -10]).sort() == sorted([-423, -10, 3, 5])
+    >>> InsertationSort([5, -423, 3, -10]) == sorted([-423, -10, 3, 5])
     True
-    >>> insertion_sort(['d', 'a', 'b', 'e']) == sorted(['d', 'a', 'b', 'e'])
+    >>> InsertationSort(['d', 'a', 'b', 'e']) == sorted(['d', 'a', 'b', 'e'])
     True
     >>> import random
     >>> collection = random.sample(range(-50, 50), 100)
-    >>> InsertationSort(array).sort() == sorted(array)
+    >>> InsertationSort(array) == sorted(array)
     True
     >>> import string
     >>> collection = random.choices(string.ascii_letters + string.digits, k=100)
-    >>> InsertationSort(array).sort() == sorted(array)
+    >>> InsertationSort(array) == sorted(array)
     True
     """
   if ascending:
