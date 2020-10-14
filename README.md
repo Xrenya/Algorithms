@@ -12,9 +12,9 @@ All Algorithms implemented in C++/Python
   * Find maximum subarray: C++, Python
   
 ## Mathematics:
-   Markup : * Matrix multiplication: 
-               * Loops (brute-force): C++, Python
-               * Falk's scheme: C++, Python
+   * Matrix multiplication: 
+     * Loops (brute-force): C++, Python
+     * Falk's scheme: C++, Python
 
 ## Reference:
   * MIT 6.006 - Introduction to Algorithms
