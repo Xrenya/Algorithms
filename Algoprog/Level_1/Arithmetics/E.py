@@ -1,6 +1,6 @@
 number = input()
 
-def text(number):
+def last_digit(number):
     return int(number[-1])
 
-text(number)
+print(last_digit(number))
