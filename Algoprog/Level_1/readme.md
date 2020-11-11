@@ -1,7 +1,7 @@
 ## Level 1
 ### Уровень 1A
 - [X] [Арифметические операции](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Arithmetics)
-- [X] Условный оператор
+- [X] [Условный оператор](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/if-else)
 - [ ] Как отлаживать программы
 - [ ] Циклы
 ### Уровень 1B
