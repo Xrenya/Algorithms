@@ -2,7 +2,7 @@
 ### Уровень 1A
 - [X] [Арифметические операции](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Arithmetics)
 - [X] [Условный оператор](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/if-else)
-- [ ] [Циклы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Loops)
+- [X] [Циклы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Loops)
 ### Уровень 1B
 - [ ] Массивы
 - [ ] Символы и строки
