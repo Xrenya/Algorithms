@@ -5,7 +5,7 @@
 - [X] [Циклы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Loops)
 ### Уровень 1B
 - [x] [Массивы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Array)
-- [ ] Символы и строки
+- [x] [Символы и строки](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Strings)
 - [ ] Вещественные числа
 ### Уровень 1C
 - [ ] Вещественные числа
