@@ -4,7 +4,7 @@
 - [X] [Условный оператор](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/if-else)
 - [X] [Циклы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Loops)
 ### Уровень 1B
-- [ ] Массивы
+- [x] [Массивы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Array)
 - [ ] Символы и строки
 - [ ] Вещественные числа
 ### Уровень 1C
