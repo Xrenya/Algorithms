@@ -6,7 +6,7 @@
 ### Уровень 1B
 - [x] [Массивы](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Array)
 - [x] [Символы и строки](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Strings)
-- [ ] Вещественные числа
+- [x] [Вещественные числа](https://github.com/Xrenya/Algorithms/tree/master/Algoprog/Level_1/Real)
 ### Уровень 1C
 - [ ] Вещественные числа
 - [ ] Основы тестирования задач (без контеста)
