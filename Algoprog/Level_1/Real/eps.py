@@ -4,3 +4,7 @@ def equal(a, b, c):
         return "YES"
     else:
         return "NO" 
+a = float(input())
+b = float(input())
+c = float(input())
+equal(a, b, c)
