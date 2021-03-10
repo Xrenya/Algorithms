@@ -16,9 +16,9 @@ class Solution(object):
                 window.append(string)
             else:
                 # Find the index of a founded element 
-                val = window.index(string)
+                idx = window.index(string)
                 # Resize the array by cutting of the tail 
-                window = window[val+1:]
+                window = window[idx+1:]
                 # Append the founded element 
                 window.append(string)
             # Compare the current lenght of the array 
