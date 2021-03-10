@@ -1,6 +1,8 @@
 class Solution(object):
     def BruteLengthOfLongestSubstring(self, s):
         """
+        Just sliding window without a hash map
+        
         Elemetns are added to the array on each iteration
         and if an element is not in the list, but 
         if the element is already there we slice the 
@@ -26,3 +28,21 @@ class Solution(object):
             if len(window) > maximum:
                 maximum = len(window)
         return maximum
+
+    def lengthOfLongestSubstring(self, s):
+        """
+        Sliding window with a hash map
+        :type s: str
+        :rtype: int
+        """
+        longest = 0
+        l = 0
+        lib = {}
+        for r,c in enumerate(s):
+            if c in lib:
+                if l < lib[c] + 1:
+                    l = lib[c] + 1
+            lib[c] = r
+            if longest < r - l + 1:
+                longest = r - l + 1
+        return longest
