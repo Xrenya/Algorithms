@@ -1,5 +1,5 @@
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+    def findMedianSortedArraysBrute(self, nums1: List[int], nums2: List[int]) -> float:
         """Merge two array, sort it and jsut find the median of a sorted array
         """
         merge = nums1 + nums2
@@ -8,4 +8,8 @@ class Solution:
             return merge[len(merge) // 2]
         else:
             return (merge[len(merge) // 2] + merge[len(merge) // 2 - 1])/2
-                
+   def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        """Using Binary Search
+        """
+       pass
+                         
