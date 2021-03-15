@@ -16,5 +16,8 @@ All Algorithms implemented in C++/Python
      * Loops (brute-force): C++, Python
      * Falk's scheme: C++, Python
 
+## Leetcode problems:
+   * [Leetcode](https://github.com/Xrenya/Algorithms/tree/master/Leetcode)
+
 ## Reference:
   * MIT 6.006 - Introduction to Algorithms
