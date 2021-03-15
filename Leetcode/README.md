@@ -1,6 +1,7 @@
 |  #  |      Title     |   Solutions   | Difficulty  | Tag                   
 |-----|----------------|---------------|-------------|-------------
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1672.py)|Easy|Array|
+|1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1512.py)|Easy|Array|
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1470.py)|Easy|Array|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1431.py)|Easy|Array|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
