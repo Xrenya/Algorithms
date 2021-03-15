@@ -1,5 +1,6 @@
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+        # Time complexity O(2n)
         # Find the maximum in the array
         maximum = 0
         for candy in candies:
