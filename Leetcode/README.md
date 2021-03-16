@@ -1,6 +1,6 @@
 |  #  |      Title     |   Solutions   | Difficulty  | Tag                   
 |-----|----------------|---------------|-------------|-------------
-|1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1672.py)|Easy|Array|
+|1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1773.py)|Easy|Array, String|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1603.py)|Easy|Hash map|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1512.py)|Easy|Array|
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1470.py)|Easy|Array|
