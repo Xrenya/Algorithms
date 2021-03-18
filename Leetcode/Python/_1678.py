@@ -32,3 +32,28 @@ class Solution:
             else:
                 pass
         return string
+
+ class Solution:
+    def interpret(self, command: str) -> str:
+        
+        mapping = [
+            ('G','G'),
+            ('()','o'),
+            ('(al)', 'al')
+        ]
+        
+        parsed = []
+        i = 0
+    
+        while i < len(command):
+            
+            for _from, _to in mapping:
+                
+                len_from = len(_from)
+
+                if _from == command[i:i+len_from]:
+                    parsed.append(_to)
+                    i = i + len_from
+                    break
+                        
+        return "".join(parsed)
