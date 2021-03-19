@@ -11,8 +11,6 @@ class Solution:
         while num > 0:
             steps += 1 + (num & 1)
             num >>= 1
-            print(num)
-            print(steps)
         return steps - 1
       
 class Solution:
