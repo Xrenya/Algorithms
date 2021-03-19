@@ -9,7 +9,7 @@
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1470.py)|Easy|Array|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1431.py)|Easy|Array|
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1365.py)|Easy|Array|
-|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1342.py)|Easy|Array, Binary|
+|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_134.py)|Easy|Array, Binary|
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/submissions/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1313.py)|Easy|Array|
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy||
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
