@@ -19,3 +19,11 @@ class Solution:
             ans = ans << 1 | head.val
             head = head.next
         return ans
+    
+class Solution:
+    def getDecimalValue(self, head: ListNode) -> int:
+        string = ""
+        while head:
+            string += str(head.val)
+            head = head.next
+        return int(string, 2)
