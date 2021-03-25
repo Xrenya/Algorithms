@@ -2,6 +2,7 @@
 |-----|----------------|---------------|-------------|-------------
 |1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1773.py)|Easy|Array, String|
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1720.py)|Easy|Array, XOR|
+|1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1588.py)|Easy|Backtracking|
 |1684|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1684.py)|Easy|String|
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1678.py)|Easy|String|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1662.py)|Easy|String|
