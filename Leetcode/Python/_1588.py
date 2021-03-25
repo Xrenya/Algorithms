@@ -27,3 +27,15 @@ class Solution:
             for j in range(i, length, 2):
                 acc += sum(arr[i:j+1])
         return acc
+    
+class Solution:
+    def sumOddLengthSubarrays(self, arr: List[int]) -> int:
+        # corner case
+        
+        acc = 0
+        freq = 0
+        length = len(arr)
+        for i in range(length):
+            freq = freq - (i + 1)//2 + (length - i + 1)//2
+            acc += freq * arr[i]
+        return acc
