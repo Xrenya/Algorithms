@@ -30,8 +30,6 @@ class Solution:
     
 class Solution:
     def sumOddLengthSubarrays(self, arr: List[int]) -> int:
-        # corner case
-        
         acc = 0
         freq = 0
         length = len(arr)
