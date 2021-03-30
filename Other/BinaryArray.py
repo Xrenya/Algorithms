@@ -12,3 +12,14 @@ def solution(A):
   print(array)
   
 solution([2,3,0])
+
+def nullptr(num):
+    powers = []
+    i = 1
+    while i <= num:
+        if i & num:
+            powers.append(i)
+        i <<= 1
+    return powers
+    
+print(nullptr(114))
