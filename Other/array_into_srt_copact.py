@@ -15,6 +15,7 @@ def sort(array: list()) -> list():
     return array
 
 def repr(group_start: int, group_end: int) -> str():
+    # Vizual representation
     if group_start == group_end:
         return "{}".format(group_start)
     return "{}-{}".format(group_start, group_end)
@@ -25,10 +26,8 @@ def transform(array) -> str():
     # Return empty string if an array is empty
     if array is None:
         return ""
-    # Sort array
-    print(array)
+    # Sort array in-place with time complexity O(n**2)
     array = sort(array)
-    print(array)
     group_start = None
     group_end = None
     for num in array:
