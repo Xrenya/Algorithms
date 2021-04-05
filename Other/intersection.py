@@ -19,4 +19,4 @@ def intersection(l1, l2):
                 hashMap[element] -= 1
     return out_array
     
-print(intersection([1, 2, 3, 2, 0], [5, 1, 2, 7, 3, 2]))
+print(intersection([1, 2, 3, 2, 0], [5, 1, 2, 7, 3, 2])) # output: [1, 2, 3, 2]
