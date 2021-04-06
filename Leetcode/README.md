@@ -3,6 +3,7 @@
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1816.py)|Easy|String|
 |1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1773.py)|Easy|Array, String|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1732.py)|Easy|Array|
+|1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1725.py)|Easy|Array|
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1720.py)|Easy|Array, XOR|
 |1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1588.py)|Easy|Backtracking|
 |1684|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1684.py)|Easy|String|
