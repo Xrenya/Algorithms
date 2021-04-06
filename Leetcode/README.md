@@ -21,6 +21,7 @@
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1431.py)|Easy|Array|
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1365.py)|Easy|Array|
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1342.py)|Easy|Array, Binary|
+|1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1323.py)|Easy|Digit|
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1313.py)|Easy|Array|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1290.py)|Easy|Binary|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1295.py)|Easy||
