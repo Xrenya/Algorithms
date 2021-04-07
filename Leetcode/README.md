@@ -28,6 +28,7 @@
 |1323|[Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1323.py)|Easy|Digit|
 |1313|[Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1313.py)|Easy|Array|
 |1309|[Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1309.py)|Easy|String|
+|1304|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1304.py)|Easy|String|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1290.py)|Easy|Binary|
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1295.py)|Easy||
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy||
