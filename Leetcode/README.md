@@ -13,6 +13,7 @@
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1614.py)|Easy|Hash map|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1603.py)|Easy|Hash map|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1588.py)|Easy|Array|
+|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1572.py)|Easy|Array|
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1534.py)|Easy|Array|
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1528.py)|Easy|Sort, String|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1512.py)|Easy|Array|
