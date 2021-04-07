@@ -34,7 +34,7 @@
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
 |938|[Range of sum of BTS](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_938.py)|Easy|BST, recursion, DFS|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
-|804|[Unique Morse Code Words]https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
+|804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_771.py)|Easy|String|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_709.py)|Easy|String|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_4.py)|Hard|Divide and Conquer|
