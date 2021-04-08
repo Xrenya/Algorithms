@@ -40,6 +40,7 @@
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_771.py)|Easy|String|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_728.py)|Easy|Array|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_709.py)|Easy|String|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_4.py)|Hard|Divide and Conquer|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_3.py)|Medium|HashMap, Sliding Window|
