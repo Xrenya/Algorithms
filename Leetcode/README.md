@@ -4,6 +4,7 @@
 |1812|[Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1812.py)|Easy|String|
 |1773|[Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1773.py)|Easy|Array, String|
 |1768|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1768.py)|Easy|Array, String|
+|1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1748.py)|Easy|Array, String|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1732.py)|Easy|Array|
 |1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1725.py)|Easy|Array|
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1720.py)|Easy|Array, XOR|
