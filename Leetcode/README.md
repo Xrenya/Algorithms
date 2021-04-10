@@ -43,7 +43,7 @@
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_942.py)|Easy|BST, recursion, DFS|
 |938|[Range of sum of BTS](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_938.py)|Easy|BST, recursion, DFS|
-|933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_933.py)|Easy|Class, Array|
+|933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_933.py)|Easy|Class, Array, Queue&Deque|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_905.py)|Easy|Array|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
