@@ -41,6 +41,7 @@
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1266.py)|Easy|Array|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
+|942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_942.py)|Easy|BST, recursion, DFS|
 |938|[Range of sum of BTS](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_938.py)|Easy|BST, recursion, DFS|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_905.py)|Easy|Array|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
