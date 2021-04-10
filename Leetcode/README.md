@@ -50,7 +50,9 @@
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_728.py)|Easy|Array|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_709.py)|Easy|String|
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python]
-|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_561.py)|Hard|Sort, Array|(https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_657.py)|Easy|Array|
+(https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_657.py)|Easy|Array|
+|561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_561.py)|Hard|Sort, Array|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_461.py)|Hard|Sort, Array|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_4.py)|Hard|Divide and Conquer|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_3.py)|Medium|HashMap, Sliding Window|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_2.py)|Medium|LinkedList|
