@@ -11,10 +11,22 @@ class Solution:
             return array
         
         nums = sortInplace(nums)
-        print(nums)
         acc = 0
         for num in nums:
             acc += num
+        greater = 0
+        array = []
+        while greater<acc+1:
+            num = nums.pop()
+            array.append(num)
+            greater += num
+            acc -= num
+        return array
+
+class Solution:
+    def minSubsequence(self, nums: List[int]) -> List[int]:      
+        nums = sorted(nums)
+        acc = sum(nums)
         greater = 0
         array = []
         while greater<acc+1:
