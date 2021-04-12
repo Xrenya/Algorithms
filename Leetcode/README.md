@@ -40,6 +40,7 @@
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy||
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1266.py)|Easy|Array|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
+|1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1051.py)|Easy|Array|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_942.py)|Easy|BST, recursion, DFS|
 |938|[Range of sum of BTS](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_938.py)|Easy|BST, recursion, DFS|
