@@ -43,6 +43,7 @@
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1207.py)|Easy|Array, HashMap|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1051.py)|Easy|Array|
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1047.py)|Easy|String|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_977.py)|Easy|Array, Queue|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_942.py)|Easy|BST, recursion, DFS|
