@@ -20,6 +20,7 @@
 |1534|[Count Good Triplets](https://leetcode.com/problems/count-good-triplets/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1534.py)|Easy|Array|
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1528.py)|Easy|Sort, String|
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1512.py)|Easy|Array|
+|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1502.py)|Easy|Array|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1480.py)|Easy|Array|
 |1475|[Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1475.py)|Easy|Array|
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1470.py)|Easy|Array|
