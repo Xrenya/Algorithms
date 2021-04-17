@@ -48,6 +48,7 @@
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1051.py)|Easy|Array|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1047.py)|Easy|String|
+|1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1122.py)|Easy|Array, HashMap|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_977.py)|Easy|Array, Queue|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
 |944|[Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_944.py)|Easy|String, Array|
