@@ -1,6 +1,20 @@
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
         hashStudent = {0:0, 1:0}
+        
+        for student in students:
+            hashStudent[student] += 1
+        
+        for sandwich in sandwiches:
+            if hashStudent[sandwich] == 0:
+                break
+            else:
+                hashStudent[sandwich] -= 1
+        return sum(hashStudent.values())
+    
+class Solution:
+    def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
+        hashStudent = {0:0, 1:0}
         hashSandwich = {0:0, 1:0}
         
         for student in students:
