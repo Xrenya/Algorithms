@@ -57,6 +57,7 @@
 |942|[DI String Match](https://leetcode.com/problems/di-string-match/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_942.py)|Easy|BST, recursion, DFS|
 |938|[Range of sum of BTS](https://leetcode.com/problems/range-sum-of-bst/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_938.py)|Easy|BST, recursion, DFS|
 |933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_933.py)|Easy|Class, Array, Queue&Deque|
+|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_929.py)|Easy|Array|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_922.py)|Easy|Array|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_905.py)|Easy|Array|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_852.py)|Easy|Array, Divide&Conquere|
