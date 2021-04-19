@@ -15,6 +15,7 @@
 |1684|[Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1684.py)|Easy|String|
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1678.py)|Easy|String|
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1662.py)|Easy|String|
+|1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1636.py)|Easy|Array|
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1614.py)|Easy|Hash map|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1603.py)|Easy|Hash map|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1588.py)|Easy|Array|
