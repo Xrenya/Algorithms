@@ -66,6 +66,7 @@
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_771.py)|Easy|String|
+|766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_766.py)|Easy|Array|
 |728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_728.py)|Easy|Array|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_709.py)|Easy|String||
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_682.py)|Easy|Array|
