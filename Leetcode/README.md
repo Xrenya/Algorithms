@@ -30,6 +30,7 @@
 |1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1470.py)|Easy|Array|
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1464.py)|Easy|Array|
 |1460|[Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1460.py)|Easy|Array|
+|1455|[Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1455.py)|Easy|Array|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1450.py)|Easy|Array|
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1436.py)|Easy|Array|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1431.py)|Easy|Array|
