@@ -1,4 +1,18 @@
 class Solution:
+    def reformatNumber(self, number: str) -> str:
+        number = number.replace('-', '')
+        number = number.replace(' ', '')
+        string = ''
+        while len(number) > 4:
+            string += number[:3] + '-'
+            number = number[3:]
+        if len(number) == 4:
+            string += number[:2] + '-' + number[2:4]
+        else:
+            string += number
+        return string
+
+class Solution:
     # Recursion
     def reformatNumber(self, number: str) -> str:
         number = number.replace('-', '')
