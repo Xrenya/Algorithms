@@ -10,6 +10,7 @@
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1732.py)|Easy|Array|
 |1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1725.py)|Easy|Array|
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1720.py)|Easy|Array, XOR|
+|1716|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1716.py)|Easy|Array|
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1710.py)|Easy|Array|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1700.py)|Easy|Array, HashMap|
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1694.py)|Easy|String|
