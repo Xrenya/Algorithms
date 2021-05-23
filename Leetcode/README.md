@@ -84,6 +84,7 @@
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_509.py)|Easy|Swap|
 |463|[Island Perimeter](https://leetcode.com/problems/hamming-distance/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_461.py)|Hard|Sort, Array|
 |461|[Hamming Distance](https://leetcode.com/problems/island-perimeter/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_463.py)|Easy|Array|
+|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_412.py)|Easy|Array|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_349.py)|Easy|Array|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_344.py)|Easy|Array, String|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_136.py)|Easy|Array, HashMap|
