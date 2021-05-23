@@ -22,6 +22,7 @@
 |1619|[Mean of Array After Removing Some Elements](https://leetcode.com/problems/mean-of-array-after-removing-some-elements/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1619.py)|Easy|Array|
 |1614|[Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1614.py)|Easy|Hash map|
 |1603|[Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1603.py)|Easy|Hash map|
+|1598|[Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1597.py)|Easy|Array|
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1588.py)|Easy|Array|
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1582.py)|Easy|Array|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1572.py)|Easy|Array|
