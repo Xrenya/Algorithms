@@ -59,7 +59,7 @@
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1200.py)|Easy|Array|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1160.py)|Easy|String, HashMap|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
-|1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1103.py)|Easy|String|
+|1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1103.py)|Easy|Array|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1051.py)|Easy|Array|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1047.py)|Easy|String|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1122.py)|Easy|Array, HashMap|
