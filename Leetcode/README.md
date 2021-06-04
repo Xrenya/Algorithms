@@ -42,6 +42,7 @@
 |1436|[Destination City](https://leetcode.com/problems/destination-city/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1436.py)|Easy|Array|
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1431.py)|Easy|Array|
 |1408|[String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1408.py)|Easy|Array, String|
+|1394|[Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1394.py)|Easy|Array|
 |1380|[Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1380.py)|Easy|Array|
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1365.py)|Easy|Array|
 |1351|[Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1351.py)|Easy|Array, BinarySearch|
