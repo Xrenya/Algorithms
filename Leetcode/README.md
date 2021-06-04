@@ -63,6 +63,7 @@
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1103.py)|Easy|Array|
 |1051|[Height Checker](https://leetcode.com/problems/height-checker/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1051.py)|Easy|Array|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1047.py)|Easy|String|
+|1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1046.py)|Easy|Array|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1122.py)|Easy|Array, HashMap|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_977.py)|Easy|Array, Queue|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_961.py)|Easy|Array|
