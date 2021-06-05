@@ -59,6 +59,7 @@
 |1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1266.py)|Easy|Array|
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1207.py)|Easy|Array, HashMap|
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1200.py)|Easy|Array|
+|1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1189.py)|Easy|String, HashMap|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1160.py)|Easy|String, HashMap|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1108.py)|Easy|String|
 |1103|[Distribute Candies to People](https://leetcode.com/problems/distribute-candies-to-people/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1103.py)|Easy|Array|
