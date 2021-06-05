@@ -1,6 +1,6 @@
 class Solution:
-    def transpose(self, A: List[List[int]]) -> List[List[int]]:
-        return [*map(list, zip(*A))]
+    def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
+        return [*map(list, zip(*matrix))]
     
 class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
