@@ -77,6 +77,7 @@
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_922.py)|Easy|Array|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_905.py)|Easy|Array|
 |884|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_884.py)|Easy|String|
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_867.py)|Easy|Array|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_852.py)|Easy|Array, Divide&Conquere|
 |832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_832.py)|Easy|matrice, Bitwise, HashMap|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_804.py)|Easy|string|
