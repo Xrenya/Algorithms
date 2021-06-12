@@ -12,4 +12,4 @@ def slow(seq):
             return ans
 output = slow([1, 1, 2, 1, 1, 1]) 
 print(len(output))
-print(output)
+print(*output)
