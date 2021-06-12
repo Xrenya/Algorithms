@@ -9,10 +9,10 @@
 Выведите ответ на задачу.
 ## Пример
 
-Ввод <br/>
+#### Ввод <br/>
 She sells sea shells on the sea shore;<br/>
 The shells that she sells are sea shells I'm sure.<br/>
 So if she sells sea shells on the sea shore,<br/>
 I'm sure that the shells are sea shore shells.<br/>
-вывод<br/>
+#### вывод<br/>
 19
