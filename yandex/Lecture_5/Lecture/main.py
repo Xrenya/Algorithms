@@ -14,3 +14,16 @@ def countzeroes(nums, l, r):
         if nums[i] == 0:
             cnt += 1
     return cnt 
+
+# Faster solution O(N+M)
+def makeprefixsum(nums):
+    prefixsum = [0] * (len(nums) + 1)
+    for i in range(1, len(nums)+1):
+        if nums[i-1] == 0:
+            prefixsum[i] = prefixsum[i-1] + 1
+        else:
+            prefixsum[i] = prefixsum[i-1]
+    return prefixsum
+
+def countzeroes(nums, l, r):
+    return prefixsum[r] - prefixsum[l]
