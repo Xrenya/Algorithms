@@ -27,3 +27,15 @@ def makeprefixsum(nums):
 
 def countzeroes(nums, l, r):
     return prefixsum[r] - prefixsum[l]
+
+# O(n**3)
+def countzerossumranges(nums):
+    cntranges = 0
+    for i in range(len(nums)): # Left boundary
+        for j in range(i+1, len(nums)+1): # Right boundary
+            rangesum = 0
+            for k in range(i, j):
+                rangesum += nums[k]
+            if rangesum == 0:
+                cntranges += 1
+    return cntranges
