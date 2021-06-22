@@ -67,3 +67,13 @@ def cntpairswithdiffgtk(sortednums, k):
                 contpairs += 1
     return contpairs
 # cntpairswithdiffgtk([1,3,5,6], 3) -> 2
+
+# O(n)
+def cntpairswithdiffgtk(sortednums, k):
+    contpairs = 0
+    last = 0
+    for first in range(len(sortednums)):
+        while last < len(sortednums) and sortednums[last] - sortednums[first] <= k:
+            last += 1
+        contpairs += len(sortednums) - last
+    return contpairs
