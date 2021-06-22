@@ -57,3 +57,13 @@ def countzerossumrange(prefixsumbyvalue):
         cntsum = prefixsumbyvalue[nowsum]
         cntranges += cntsum * (cntsum - 1) // 2
     return cntranges
+
+# O(n*n)
+def cntpairswithdiffgtk(sortednums, k):
+    contpairs = 0
+    for first in range(len(sortednums)):
+        for last in range(first, len(sortednums)):
+            if sortednums[last] - sortednums[first] > k:
+                contpairs += 1
+    return contpairs
+# cntpairswithdiffgtk([1,3,5,6], 3) -> 2
