@@ -95,6 +95,7 @@ def merge(nums1, nums2):
     nums2.pop()
     return merged
 
+# O(N+M)
 def mergebetter(nums1, nums2):
     merged = [0] * len(nums1) + [0] * len(nums2)
     first1 = first2 = 0
