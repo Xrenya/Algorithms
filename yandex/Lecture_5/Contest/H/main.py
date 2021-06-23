@@ -17,16 +17,17 @@ def substring(lenght, limit, string):
             if nowcnt > cnt:
                 cnt = nowcnt
                 first = l
+                hashMap[string[l]] -= 1
+                l += 1
             else:
-                first = l
-            hashMap[string[l]] -= 1
-        else:
-            nowcnt = r - l + 1
-            cnt = nowcnt
-            first = l
+                hashMap[string[l]] -= 1
+                l += 1
         r += 1
+    nowcnt = r - l
+    if nowcnt > cnt:
+        cnt = nowcnt
+        first = l
     return [cnt, first+1]
-
 
 if __name__ == '__main__':
     ans = substring(lenght, limit, string)
