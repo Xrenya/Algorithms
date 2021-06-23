@@ -1,28 +1,28 @@
 with open('input.txt') as f:
     nun_classes = int(f.readline())
-    min_power = list(map(int, f.readline().split()))
+    min_power = sorted(list(map(int, f.readline().split())))
     num_specs = int(f.readline())
-    data = {}
+    data = []
     for _ in range(num_specs):
         power, price = list(map(int, f.readline().split()))
-        if power not in data:
-            data[power] = price
-        elif power in data:
-            if data[power] > price:
-                data[power] = price
+        data.append([price, power])
+        data = sorted(data)
 
 
 def minimal_price(nun_classes, min_power, data):
-    output = 0
-    spec_range = sorted(data.keys())
-    for i in range(nun_classes):
-        nowprice = 1001
-        for spec in spec_range:
-            if min_power[i] <= spec:
-                if data[spec] < nowprice:
-                    nowprice = data[spec]
-        output += nowprice
-    return output
+    total_cost = 0
+    i = 0
+    for power in min_power:
+        while nun_classes < len(data):
+            conditioner_price, conditioner_power = data[i]
+            if conditioner_power >= power:
+                total_cost += conditioner_price
+                break
+            else:
+                i += 1
+    return total_cost
+
+
 
 if __name__ == '__main__':
     ans = minimal_price(nun_classes, min_power, data)
