@@ -13,7 +13,7 @@ def minimal_price(nun_classes, min_power, data):
     total_cost = 0
     i = 0
     for power in min_power:
-        while nun_classes < len(data):
+        while i < len(data):
             conditioner_price, conditioner_power = data[i]
             if conditioner_power >= power:
                 total_cost += conditioner_price
