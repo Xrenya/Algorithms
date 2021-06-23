@@ -12,18 +12,20 @@ def substring(lenght, limit, string):
         if string[r] not in hashMap:
             hashMap[string[r]] = 0
         hashMap[string[r]] += 1
-        flag = False
         if hashMap[string[r]] > limit:
             nowcnt = r - l
             if nowcnt > cnt:
                 cnt = nowcnt
                 first = l
+            else:
+                first = l
             hashMap[string[l]] -= 1
-            l += 1
+        else:
+            nowcnt = r - l + 1
+            cnt = nowcnt
+            first = l
         r += 1
-    return [cnt, first]
-
-
+    return [cnt, first+1]
 
 
 if __name__ == '__main__':
