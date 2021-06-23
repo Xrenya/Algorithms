@@ -6,7 +6,7 @@ with open('input.txt') as f:
     for _ in range(num_specs):
         power, price = list(map(int, f.readline().split()))
         data.append([price, power])
-        data = sorted(data)
+    data = sorted(data)
 
 
 def minimal_price(nun_classes, min_power, data):
