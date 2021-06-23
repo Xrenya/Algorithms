@@ -34,9 +34,7 @@ matchingLetters = matchDicts(wDict, sDict)
 occurrences = 0
 if matchingLetters == len(wDict):
     occurrences += 1
-print(lenW, lenS)
 for i in range(lenW, lenS):
-    print([i - lenW])
     matchingLetters += modifyDict(sDict, wDict, s[i - lenW], -1)
     matchingLetters += modifyDict(sDict, wDict, s[i], +1)
     if matchingLetters == len(wDict):
