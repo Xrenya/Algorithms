@@ -96,6 +96,7 @@
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_349.py)|Easy|Array|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_344.py)|Easy|Array, String|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_136.py)|Easy|Array, HashMap|
+|9|[Palindrome Number](https://leetcode.com/problems/reverse-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_9.py)|Easy|Palindrome|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_7.py)|Easy|Reverse interger|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_4.py)|Hard|Divide and Conquer|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_3.py)|Medium|HashMap, Sliding Window|
