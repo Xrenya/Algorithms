@@ -88,3 +88,29 @@ def mincarsfullparking(cars, n):
 		if occupied == n:
 			mincars = min(mincars, nowcar)
 	return mincars
+
+def mincarsfullparking_set(cars, n):
+	events = []
+	for car in cars:
+		timein, timeout, placefrom, placeto = car
+		events.append((timein, 1, placeto - placefrom + 1, i))
+		events.append((timeout, -1, placeto - placefrom + 1, i))
+	events.sort()
+	occupied = 0
+	nowcar = 0
+	mincars = len(cars) + 1
+	casnums = set()
+	bestcarnums = set()
+	for i in range(len(events)):
+		if events[i][1] == -1:
+			occupied =- events[i][2]
+			nowcar -= 1
+			casnums.remove(events[i][3])
+		elif events[i][1] == 1:
+			occupied =- events[i][2]
+			nowcar += 1
+			casnums.add(events[i][3])
+		if occupied == n:
+			bestcarnums = casnums.copy()
+			mincars = nowcar
+	return bestcarnums
