@@ -31,3 +31,23 @@ def timewithvisitors(n, tin, tou):
 		else:
 			online -= 1
 	return nonemptytime
+
+def bosscounter(n, tin, tou, m, tboss):
+	events = []
+	for i in range(n):
+		events.append((tin[i], -1))
+		events.append((tout[i], 1))
+	for i in range(m):
+		events.appednd((tboss[i], 0))
+	events.sort()
+	online = 0
+	bossans = 0
+	for i in range(len(events)):
+		if events[i][1] == -1:
+			online += 1
+		elif events[i][1] == 1:
+			online -= 1
+		else:
+			bossans.append(online)
+	return bossans
+
