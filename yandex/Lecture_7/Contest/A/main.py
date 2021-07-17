@@ -1,31 +1,27 @@
 with open('input.txt') as f:
-    N, K = list(map(int, f.readline().split()))
-    num_n = sorted(list(map(int, f.readline().split())))
-    num_k = list(map(int, f.readline().split()))
+    students, teachers = list(map(int, f.readline().split()))
+    events = []
+    for _ in range(teachers):
+        start, end = list(map(int, f.readline().split()))
+        events.append((start, -1))
+        events.append((end, 1))
+    events.sort()
 
-def binary(array, target):
-    low, high = 0, len(array)
-    while low < high:
-        middle = (high + low) // 2
-        if array[middle] == target:
-            return True
-        elif array[middle] > target:
-            high = middle
+def leftstudents(students, teachers, events):
+    cnt = 0
+    watchers = 0
+    for i in range(len(events)):
+        if watchers > 0:
+            cnt += events[i][0] - events[i-1][0]
+        if events[i][1] == -1:
+            watchers += 1
         else:
-            low = middle + 1
-    return False
-
-
-def runner(N, K, num_n, num_k):
-    output = []
-    for i in range(K):
-        if binary(num_n, num_k[i]):
-            output.append("YES")
-        else:
-            output.append("NO")
-    return "\n".join(output)
+            watchers -= 1
+        if watchers == 0:
+            cnt += 1
+    return students - cnt
 
 if __name__ == '__main__':
-    ans = runner(N, K, num_n, num_k)
+    left = leftstudents(students, teachers, events)
     with open('output.txt', 'w') as file:
-        file.write(f"{ans}")
+        file.write(f"{left}")
