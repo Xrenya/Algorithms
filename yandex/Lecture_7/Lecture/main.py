@@ -114,3 +114,38 @@ def mincarsfullparking_set(cars, n):
 			bestcarnums = casnums.copy()
 			mincars = nowcar
 	return bestcarnums
+
+def mincarsfullparking_set_fast(cars, n):
+	events = []
+	for car in cars:
+		timein, timeout, placefrom, placeto = car
+		events.append((timein, 1, placeto - placefrom + 1, i))
+		events.append((timeout, -1, placeto - placefrom + 1, i))
+	events.sort()
+	occupied = 0
+	nowcar = 0
+	mincars = len(cars) + 1
+	bestcarnums = set()
+	for i in range(len(events)):
+		if events[i][1] == -1:
+			occupied =- events[i][2]
+			nowcar -= 1
+		elif events[i][1] == 1:
+			occupied =- events[i][2]
+			nowcar += 1
+		if occupied == n:
+			mincars = nowcar
+	casnums = set()
+	nowcar = 0
+	for i in range(len(events)):
+		if events[i][1] == -1:
+			occupied =- events[i][2]
+			nowcar -= 1
+			casnums.remove(events[i][3])
+		elif events[i][1] == 1:
+			occupied =- events[i][2]
+			nowcar += 1
+			casnums.add(events[i][3])
+		if occupied == n and nowcars == mincars:
+			return casnums
+	return set()
