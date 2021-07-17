@@ -67,3 +67,24 @@ def isparkingfull(cars, n):
 		if occupied == n:
 			return True
 	return False
+
+def mincarsfullparking(cars, n):
+	events = []
+	for car in cars:
+		timein, timeout, placefrom, placeto = car
+		events.append((timein, 1, placeto - placefrom + 1))
+		events.append((timeout, -1, placeto - placefrom + 1))
+	events.sort()
+	occupied = 0
+	nowcar = 0
+	mincars = len(cars) + 1
+	for i in range(len(events)):
+		if events[i][1] == -1:
+			occupied =- events[i][2]
+			nowcar -= 1
+		elif events[i][1] == 1:
+			occupied =- events[i][2]
+			nowcar += 1
+		if occupied == n:
+			mincars = min(mincars, nowcar)
+	return mincars
