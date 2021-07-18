@@ -87,6 +87,7 @@
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_709.py)|Easy|String||
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_682.py)|Easy|Array|
 |657|[Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_657.py)|Easy|Array|
+|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_647.py)|Medium|Dynamic Programming (DP)|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_561.py)|Hard|Sort, Array|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_557.py)|Easy|String|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_509.py)|Easy|Swap|
