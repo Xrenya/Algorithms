@@ -36,3 +36,16 @@ def add(memstruct, root, x):
 			memstruct[0][root][2] == createandfillnode(memstruct, x)
 		else:
 			add(memstruct, left, x)
+
+			
+memstruct = initmemory(20)
+root = createandfillnode(memstruct, root, 8)
+add(memstruct, root, 10)
+add(memstruct, root, 9)
+add(memstruct, root, 14)
+add(memstruct, root, 13)
+add(memstruct, root, 3)
+add(memstruct, root, 1)
+add(memstruct, root, 6)
+add(memstruct, root, 4)
+add(memstruct, root, 7)
