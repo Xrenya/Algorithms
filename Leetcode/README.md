@@ -104,6 +104,7 @@
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_136.py)|Easy|Array, HashMap|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_62.py)|Medium|Dynamic Programming (DP)|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_58.py)|Easy|String|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_27.py)|Easy|Array|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_20.py)|Easy|HashMap, Array|
 |13|[Roman To Integer](https://leetcode.com/problems/roman-to-integer/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_13.py)|Easy|HashMap|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_11.py)|Medium|Two Pointers|
