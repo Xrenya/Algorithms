@@ -33,9 +33,9 @@ def find(memstruct, root, x):
 
 def createandfillnode(memstruct, key):
 	index = newnode(memstruct)
-	memstruct[0][root][0] = key
-	memstruct[0][root][0] = -1
-	memstruct[0][root][0] = -1
+	memstruct[0][index][0] = key
+	memstruct[0][index][1] = -1
+	memstruct[0][index][2] = -1
 	return index 
 
 def add(memstruct, root, x):
@@ -55,7 +55,7 @@ def add(memstruct, root, x):
 
 			
 memstruct = initmemory(20)
-root = createandfillnode(memstruct, root, 8)
+root = createandfillnode(memstruct, 8)
 add(memstruct, root, 10)
 add(memstruct, root, 9)
 add(memstruct, root, 14)
