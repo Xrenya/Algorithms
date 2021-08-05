@@ -16,7 +16,7 @@ def delnode(memstruct, index):
 
 def find(memstruct, root, x):
 	key = memstruct[0][root][0]
-	if k == key:
+	if x == key:
 		return root
 	elif x < key:
 		left = memstruct[0][root][1]
@@ -51,7 +51,7 @@ def add(memstruct, root, x):
 		if right == -1:
 			memstruct[0][root][2] == createandfillnode(memstruct, x)
 		else:
-			add(memstruct, left, x)
+			add(memstruct, right, x)
 
 			
 memstruct = initmemory(20)
