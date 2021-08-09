@@ -103,6 +103,7 @@
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_169.py)|Easy|HashMap|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_167.py)|Medium|Two Pointers|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_136.py)|Easy|Array, HashMap|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_94.py)|Easy|Binary Tree raversal|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_88.py)|Easy|Merge Sorted List|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_70.py)|Easy|Fibonacci|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_69.py)|Easy|sqrt|
