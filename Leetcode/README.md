@@ -99,6 +99,7 @@
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_304.py)|Medium|prefixsum|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_303.py)|Medium|prefixsum|
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_238.py)|Medium|prefixsum|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_231.py)|Easy|Bit|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_217.py)|Easy|Hash|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_209.py)|Medium|Two Pointers, prefixsum|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_206.py)|Easy|Linked List|
