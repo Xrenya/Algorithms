@@ -13,3 +13,15 @@ class Solution:
             if cnt < diff:
                 cnt = diff
         return cnt
+    
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        p_min = prices[0]
+        p_return = 0
+
+        for price in prices:
+            if price < p_min:
+                p_min = price
+            else:
+                p_return = max(p_return, price - p_min)
+        return p_return
