@@ -101,6 +101,15 @@ class LinkedList:
             cursor = cursor.next
         print(output + "None")
 
+    def __iter__(self):
+        cursor = self.head
+        while cursor:
+            yield cursor.val
+            cursor = cursor.next
+
+    def __repr__(self):
+        return "[{}]".format(", ".join(map(str, self)))
+
 
 linked = LinkedList()
 linked.add(1)  # 0
@@ -138,3 +147,10 @@ print(linked.remove(2))
 linked.print_list()
 print(linked.remove(1))
 linked.print_list()
+print(linked.remove(3))
+linked.print_list()
+
+for i in linked:
+    print("Iter: ",i)
+
+print(linked)
