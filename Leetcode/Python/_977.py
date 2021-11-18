@@ -27,3 +27,21 @@ class Solution:
                 arrayQueue.appendleft(nums[r]**2)
                 r -= 1
         return arrayQueue
+    
+class Solution:
+    def sortedSquares(self, nums: List[int]) -> List[int]:
+        l = 0
+        r = len(nums) - 1
+        index = len(nums) - 1
+        output = [None] * len(nums)
+        while l <= r:
+            left = nums[l]**2
+            right = nums[r]**2
+            if left < right:
+                output[index] = right
+                r -= 1
+            else:
+                output[index] = left
+                l += 1
+            index -= 1
+        return output
