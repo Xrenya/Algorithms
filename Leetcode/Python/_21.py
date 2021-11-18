@@ -12,23 +12,16 @@ class Solution:
         elif l2 is None:
             return l1
         else:
-            listnode = None
+            listnode = ListNode()
+            cursor = listnode
             while l1 and l2:
                 if l1.val > l2.val:
-                    if listnode is None:
-                        listnode = ListNode(l2.val)
-                        cursor = listnode
-                    else:
-                        cursor.next = ListNode(l2.val)
-                        cursor = cursor.next
+                    cursor.next = ListNode(l2.val)
+                    cursor = cursor.next
                     l2 = l2.next
                 else:
-                    if listnode is None:
-                        listnode = ListNode(l1.val)
-                        cursor = listnode
-                    else:
-                        cursor.next = ListNode(l1.val)
-                        cursor = cursor.next
+                    cursor.next = ListNode(l1.val)
+                    cursor = cursor.next
                     l1 = l1.next
             while l1:
                 cursor.next = ListNode(l1.val)
@@ -38,7 +31,4 @@ class Solution:
                 cursor.next = ListNode(l2.val)
                 l2 = l2.next
                 cursor = cursor.next
-        return listnode
-                
-                
-                
+        return listnode.next
