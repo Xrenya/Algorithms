@@ -8,8 +8,12 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def add(self, val):
-        node = Node(val)
+    def add(self, value):
+        """Add value at the end of the list
+        :param value: float
+        :return: None
+        """
+        node = Node(value)
         if self.head is None:
             self.head = node
         else:
@@ -22,15 +26,37 @@ class LinkedList:
                 else:
                     cursor = cursor.next
 
-    def exist(self, val):
+    def exist(self, value: float) -> bool:
+        """Find whether the value in the linked list
+        :param value: float
+        :return: bool
+        """
         cursor = self.head
         while cursor:
-            if cursor.val == val:
+            if cursor.val == value:
                 return True
             cursor = cursor.next
         return False
 
-    def index(self, value):
+    def remove(self, value: float) -> None:
+        """Remove element from the linked list
+        :param value: float
+        :return: None
+        """
+        current = self.head
+        prev = None
+        while current:
+            if current.val == value:
+                prev.next = current.next
+                current.next = None
+            prev = current
+            current = current.next
+
+    def index(self, value: float) -> int:
+        """Find value index position in linked list
+        :param value: float
+        :return: index position
+        """
         cursor = self.head
         index = 0
         while cursor:
@@ -40,7 +66,12 @@ class LinkedList:
             index += 1
         return -1
 
-    def insert(self, value, pos):
+    def insert(self, value: float, pos: int) -> None:
+        """Insert value into the specified index position
+        :param value: float
+        :param pos: int
+        :return: LinkedList
+        """
         node = Node(value)
         current = self.head
         prev = None
@@ -54,7 +85,10 @@ class LinkedList:
             current = current.next
             index += 1
 
-    def print_list(self):
+    def print_list(self) -> None:
+        """Print a linked list
+        :return: None
+        """
         output = ""
         format = "[val = {}] -> "
         cursor = self.head
@@ -76,4 +110,6 @@ print(linked.index(4))
 print(linked.index(3))
 print(linked.index(0))
 print(linked.insert(10, 2))
+linked.print_list()
+print(linked.remove(2))
 linked.print_list()
