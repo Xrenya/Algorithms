@@ -47,8 +47,12 @@ class LinkedList:
         prev = None
         while current:
             if current.val == value:
-                prev.next = current.next
-                current.next = None
+                if prev is None:
+                    self.head = current.next
+                    current = current.next
+                else:
+                    prev.next = current.next
+                    current.next = None
             prev = current
             current = current.next
 
@@ -131,4 +135,6 @@ linked.print_list()
 print(linked.insert(10, 2))
 linked.print_list()
 print(linked.remove(2))
+linked.print_list()
+print(linked.remove(1))
 linked.print_list()
