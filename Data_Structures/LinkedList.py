@@ -103,12 +103,31 @@ linked.add(1)  # 0
 linked.add(2)  # 1
 linked.add(3)  # 2
 linked.add(4)  # 4
+assert linked.exist(4) == True, (
+    "The linked list did not add '4'"
+)
 print(linked.exist(4))
+assert linked.exist(3) == True, (
+    "The linked list did not add '3'"
+)
 print(linked.exist(3))
+assert linked.exist(0) == False, (
+    "The linked list did not add '0'"
+)
 print(linked.exist(0))
+assert linked.index(4) == 3, (
+    f"The linked list does not properly extract index, got {linked.index(4)}, expected {3}"
+)
 print(linked.index(4))
+assert linked.index(3) == 2, (
+    f"The linked list does not properly extract index, got {linked.index(3)}, expected {2}"
+)
 print(linked.index(3))
+assert linked.index(0) == -1, (
+    f"The linked list does not properly extract index, got {linked.index(0)}, expected {-1}"
+)
 print(linked.index(0))
+linked.print_list()
 print(linked.insert(10, 2))
 linked.print_list()
 print(linked.remove(2))
