@@ -36,6 +36,15 @@ class BST:
             else:
                 return False
 
+    def __iter__(self):
+        if self.left:
+            for node in self.left:
+                yield node
+        yield self
+        if self.right:
+            for node in self.right:
+                yield node
+
 
 bst = BST()
 nums = [6,4,9,1,5,8,10]
@@ -70,3 +79,5 @@ print("The second maximum value in tree: ", find_second_max_value(bst))
 searches = [6, 4, 5, 9, 0, 1]
 for search in searches:
     print(bst.search(search))
+
+print([node.key for node in bst])
