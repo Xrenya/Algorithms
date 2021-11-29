@@ -38,16 +38,11 @@ class BST:
 
     def __iter__(self):
         if self.left:
-            print("L ", self.key)
             for node in self.left:
-                print("2L ", node.key)
                 yield node
-        print("M ", self.key)
         yield self
         if self.right:
-            print("R ", self.key)
             for node in self.right:
-                print("2R ", self.key)
                 yield node
 
 
