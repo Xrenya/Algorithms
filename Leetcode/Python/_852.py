@@ -32,3 +32,15 @@ class Solution:
         for i in range(1, len(arr)):
             if arr[i - 1] < arr[i] and arr[i] > arr[i + 1]:
                 return i
+class Solution:
+    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+        l = -1
+        r = len(arr)
+        while l < r - 1:
+            mid = (l + r) >> 1
+            if arr[mid]>arr[mid+1] and arr[mid]>arr[mid-1]:
+                return mid
+            elif arr[mid]>arr[mid+1]:
+                r = mid
+            else:
+                l = mid
