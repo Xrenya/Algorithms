@@ -25,3 +25,16 @@ class Solution:
             else:
                 p_return = max(p_return, price - p_min)
         return p_return
+    
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        max_profit = 0
+        first = float("inf")
+        for num in prices:
+            if first > num:
+                first = num
+            else:
+                diff = num - first
+                if diff > max_profit:
+                    max_profit = diff
+        return max_profit
