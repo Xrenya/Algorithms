@@ -17,3 +17,13 @@ class Solution:
             for j in range(i+1, len(nums)):
                 if target == nums[i] + nums[j]:
                     return [i, j]
+                
+from collections import defaultdict
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashMap = defaultdict(int)
+        for index, num in enumerate(nums):
+            diff = target - num
+            if diff in hashMap:
+                return [hashMap[diff], index]
+            hashMap[num] = index
