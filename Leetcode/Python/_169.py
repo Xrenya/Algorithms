@@ -1,3 +1,13 @@
+from collections import defaultdict 
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        lenght = len(nums)
+        major = lenght // 2
+        hashMap = defaultdict(int)
+        for num in nums:
+            hashMap[num] += 1
+            if hashMap[num] > major:
+                return num
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         hashMap = {}
