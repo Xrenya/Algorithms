@@ -13,6 +13,7 @@ class Solution:
         for i, row in enumerate(matrix):
             if i in rows:
                 matrix[i] = [0] * len(matrix[i])
+                continue
             for j, col in enumerate(row):
                 if j in cols:
                     matrix[i][j] = 0
