@@ -1,5 +1,18 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        lenght = len(nums)
+        left_prefix = [1] * (lenght + 1)
+        right_prefix = [1] * (lenght + 1)
+        for i in range(1, lenght + 1):
+            left_prefix[i] = left_prefix[i - 1] * nums[i - 1]
+            right_prefix[lenght - i] = right_prefix[lenght - i + 1] * nums[lenght - i]
+        output = []
+        for i in range(lenght):
+            output.append(left_prefix[i] * right_prefix[i + 1])
+        return output
+
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
         
         left_array=[]
         right_array=[]
