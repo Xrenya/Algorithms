@@ -1,4 +1,29 @@
 class Solution:
+    def climbStairs(self, n: int) -> int:
+        array = [0] * n
+        if n == 1:
+            return 1
+        elif n == 2:
+            return 2
+        array[0] = 1
+        array[1] = 2
+        for i in range(2, n):
+            array[i] = array[i - 1] + array[i - 2]
+        return array[-1] 
+
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        first = 1
+        second = 2
+        if n == 1:
+            return first
+        elif n == 2:
+            return second
+        for i in range(3, n + 1):
+            first, second = second, first + second, 
+        return second
+    
+class Solution:
     # Faster
     def climbStairs(self, n: int) -> int:
         if n == 1:
