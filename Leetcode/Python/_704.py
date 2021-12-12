@@ -1,5 +1,19 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+        l = -1 
+        r = len(nums)
+        while l < r - 1:
+            m = (r + l) >> 1
+            if nums[m] == target:
+                return m
+            elif nums[m] < target:
+                l = m
+            else:
+                r = m
+        return -1
+    
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
         l = 0
         r = len(nums) - 1
         if len(nums) == 1:
