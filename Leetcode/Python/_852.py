@@ -1,4 +1,17 @@
 class Solution:
+    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+        l = -1
+        r = len(arr)
+        while l < r - 1:
+            m = (l + r) >> 1
+            if arr[m - 1] < arr[m] and arr[m] > arr[m + 1]:
+                return m
+            elif arr[m - 1] < arr[m]:
+                l = m
+            else:
+                r = m
+               
+class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         l = 0
         r = len(letters) - 1
