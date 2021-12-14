@@ -80,10 +80,10 @@ def mincarsfullparking(cars, n):
 	mincars = len(cars) + 1
 	for i in range(len(events)):
 		if events[i][1] == -1:
-			occupied =- events[i][2]
+			occupied -= events[i][2]
 			nowcar -= 1
 		elif events[i][1] == 1:
-			occupied =- events[i][2]
+			occupied -= events[i][2]
 			nowcar += 1
 		if occupied == n:
 			mincars = min(mincars, nowcar)
