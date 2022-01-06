@@ -12,3 +12,20 @@ class Solution:
             if cnt > capacity:
                 return False
         return True
+    
+    
+class Solution:
+    def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
+        event = collections.defaultdict(int)
+        for num, begin, end in trips:
+            event[begin] += num
+            event[end] -= num
+        
+        keys = sorted(event.keys())
+        passengers = 0
+        
+        for key in keys:
+            passengers += event[key]
+            if passengers > capacity:
+                return False
+        return True
