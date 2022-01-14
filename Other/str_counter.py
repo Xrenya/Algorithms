@@ -8,7 +8,7 @@ A4B3C2XYZD4E3F3A6B28
 Пояснения: Если символ встречается 1 раз, он остается без изменений; 
 Если символ повторяется более 1 раза, к нему добавляется количество повторений.
 """
-def RLE(string: str) -> str:
+def RLE(string: str) -> str: # Run-Length Encoding
     # Time complexity O(n)
     out_string: str = str()
     count = 1
