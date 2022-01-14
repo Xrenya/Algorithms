@@ -17,3 +17,25 @@ def group_words(words):
     return sorted([word for word in letter_dict.values()])
 
 print(group_words(sample))
+
+def get_hash(s):
+    count = [0]*26
+    for c in s:
+        count[ord(c) - ord('a')] += 1
+    return "".join(map(str, count))
+
+def hash_group_words(words):
+    letter_dict = dict()
+
+    for word in words:
+        hash = get_hash(word)
+        if hash not in letter_dict:
+            letter_dict[hash] = []
+        letter_dict[hash].append(word)
+
+    return sorted([word for word in letter_dict.values()])
+
+print(hash_group_words(sample))
+
+
+            
