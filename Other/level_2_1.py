@@ -1,3 +1,6 @@
+import pytest
+
+
 def solution(s: str):
     right = 0
     cnt = 0
@@ -10,11 +13,21 @@ def solution(s: str):
 
     return cnt
 
-print(solution(">----<"), f"Correct output = {2}")
-print(solution("<<>><"), f"Correct output = {4}")
-print(solution("<-->"), f"Correct output = {0}")
-print(solution("<<>>"), f"Correct output = {0}")
-print(solution(">><<"), f"Correct output = {8}")
-print(solution("<>><<>"), f"Correct output = {8}")
-# s = ">----<" 2
-# s = "<<>><" 4
+
+@pytest.mark.parametrize(
+    "input, output",
+    [
+        (">----<", 2),
+        ("<<>><", 4),
+        ("<<>>", 0),
+        ("<-->", 0),
+        ("----", 0),
+        (">><<", 8),
+        (">---->", 0),
+    ]
+)
+def test_solution(input, output):
+    out = solution(input)
+    assert out == output, (
+        f"The function output is expected {output}, but got {out}"
+    )
