@@ -15,15 +15,15 @@ class HashList:
         self.index_hash = defaultdict(int)
         # self.index = 0
     
-    def insert(self, x):
+    def insert(self, x): # O(1)
         self.index_hash[x] = len(self.sample_array)
         self.sample_array.append(x)
     
-    def contains(self, x):        
+    def contains(self, x): # O(1) 
         # flag = self.index_hash.get(x, False)
         return True if x in self.index_hash  else False
        
-    def remove(self, x):
+    def remove(self, x): # O(1)
         swap_index = self.index_hash[x]
         last = len(self.sample_array) - 1
         last_num = self.sample_array[-1]
@@ -32,7 +32,7 @@ class HashList:
         self.index_hash.remove(x)
         self.sample_array.pop()
     
-    def sample(self):
+    def sample(self): # O(1)
         index = random_int(0, len(self.sample_array) - 1)
         return self.sample_array[index]
     
