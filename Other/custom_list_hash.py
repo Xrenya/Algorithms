@@ -21,7 +21,7 @@ class HashList:
     
     def contains(self, x): # O(1) 
         # flag = self.index_hash.get(x, False)
-        return True if x in self.index_hash  else False
+        return True if x in self.index_hash else False
        
     def remove(self, x): # O(1)
         swap_index = self.index_hash[x]
