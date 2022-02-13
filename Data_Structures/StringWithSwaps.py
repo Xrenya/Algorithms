@@ -41,12 +41,12 @@ class Solution:
             else:
                 indexes_by_root[root].append(i)
                 chars_by_root[root].append(s[i])
-            print(indexes_by_root, chars_by_root)
         
         result = [None] * num_nodes
         for root in indexes_by_root:
             sorted_characters = sorted(chars_by_root[root])
             for index, slot in enumerate(indexes_by_root[root]):
                 result[slot] = sorted_characters[index]
+                
         result = ''.join(result)
         return result
