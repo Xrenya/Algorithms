@@ -46,3 +46,24 @@ class Solution(object):
             if longest < r - l + 1:
                 longest = r - l + 1
         return longest
+    
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        string = ""
+        hashmap = {}
+        n = len(s)
+        lenght = 0
+        for c in s:
+            if c not in hashmap:
+                hashmap[c] = 1
+                string += c
+                lenght = max(lenght, len(hashmap))
+            else:
+                for i in range(len(string)):
+                    if c != string[i]:
+                        del hashmap[string[i]]
+                        continue
+                    else:
+                        break
+                string = string[i + 1:] + c                
+        return lenght
