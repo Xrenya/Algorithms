@@ -1,7 +1,6 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:                    
         n = len(nums)
-        
         def partition(l, r, pivot):
             pivot_elem=nums[pivot]
             nums[r],nums[pivot]=nums[pivot],nums[r]
@@ -14,7 +13,6 @@ class Solution:
             
             nums[index],nums[r]=nums[r],nums[index]
             return index
-        
         def quick_select(l,r,kth_index):
             if l==r:
                 return nums[l]
