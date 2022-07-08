@@ -48,9 +48,9 @@ def InsertationSort(array: list, ascending=True) -> list:
 
 
 def insertation_sort(array):
-  for i in range(len(array)):
-    j = i
-    while j > 0 and array[i] < array[i - 1]:
-      array[i], array[i - 1] = array[i - 1], array[i]
-      j -= 1
-   return array
+    for i in range(len(array)):
+        j = i
+        while j > 0 and array[i] < array[i - 1]:
+            array[i], array[i - 1] = array[i - 1], array[i]
+            j -= 1
+    return array
