@@ -45,3 +45,12 @@ def InsertationSort(array: list, ascending=True) -> list:
         i -= 1
       array[i+1] = key
   return array
+
+
+def insertation_sort(array):
+  for i in range(len(array)):
+    j = i
+    while j > 0 and array[i] < array[i - 1]:
+      array[i], array[i - 1] = array[i - 1], array[i]
+      j -= 1
+   return array
