@@ -11,5 +11,5 @@ class NumArray:
     def sumRange(self, left: int, right: int) -> int:
         if right - left > len(self.nums) // 2:
             temp = sum(self.nums[:left]) + sum(self.nums[right + 1:])
-            return self.sum - (sum(self.nums[:left]) + sum(self.nums[right + 1:]))
+            return self.sum - temp
         return sum(self.nums[left:right + 1])
