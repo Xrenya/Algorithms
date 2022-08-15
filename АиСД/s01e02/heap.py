@@ -13,7 +13,6 @@ class Heap:
             j = (j - 1) // 2
             
     def remove_min(self):  # O(lg(n))
-        minimum = self.get_min()
         self.array[0] = self.array[self.size - 1]
         self.array.pop()
         self.size -= 1
@@ -28,7 +27,6 @@ class Heap:
             else:
                 self.array[j], self.array[i] = self.array[i], self.array[j]
                 i = j
-        return minimum
 
     def get_min(self):
         return self.array[0]
@@ -37,7 +35,8 @@ class Heap:
         output = []
         n = self.size
         for _ in range(n):
-            output.append(self.remove_min())
+            output.append(self.get_min())
+            self.remove_min()
         return output
             
         
