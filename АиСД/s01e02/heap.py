@@ -14,7 +14,7 @@ class Heap:
             
     def remove_min(self):  # O(lg(n))
         self.array[0] = self.array[self.size - 1]
-        self.array = self.array[:self.size - 1]
+        self.array.pop()
         self.size -= 1
         i = 0
         n = self.size
