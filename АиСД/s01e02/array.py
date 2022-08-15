@@ -56,3 +56,41 @@ print(ar.array)
 ar.remove_min()
 print(ar.array)
 print(ar.get_min())
+
+
+class ArrayV2:
+    """Keep descending array in order to have access to a minimum"""
+    def __init__(self):
+        self.array = []
+        self.size = 0
+        
+    def insert(self, x):
+        self.array.append(x)
+        self.size += 1
+        j = self.size - 1
+        while j > 0 and self.array[j] > self.array[j - 1]:
+            self.array[j], self.array[j - 1] = self.array[j - 1], self.array[j]
+            j -= 1
+            
+        
+    def get(self, index):
+        return self.array[index]
+
+    def remove_min(self):
+        min_num = self.array[self.size - 1]
+        self.array = self.array[:self.size - 1]
+        return min_num
+        
+    def remove_min(self):
+        self.array = self.array[:self.size - 1]
+    
+    
+ar = ArrayV2()
+ar.insert(10)
+ar.insert(3)
+ar.insert(5)
+ar.insert(2)
+ar.insert(0)
+print(ar.array)
+ar.remove_min()
+print(ar.array)
