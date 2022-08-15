@@ -52,10 +52,10 @@ ar.append(2)
 ar.append(3)
 ar.insert(0, 0)
 ar.insert(-1, 0)
-print(ar.array)
+print(ar.array)  # [-1, 0, 1, 2, 3]
 ar.remove_min()
-print(ar.array)
-print(ar.get_min())
+print(ar.array)  # [3, 0, 1, 2]
+print(ar.get_min())  # 0
 
 
 class ArrayV2:
@@ -91,6 +91,6 @@ ar.insert(3)
 ar.insert(5)
 ar.insert(2)
 ar.insert(0)
-print(ar.array)
+print(ar.array)  # [10, 5, 3, 2, 0]
 ar.remove_min()
-print(ar.array)
+print(ar.array)  # [10, 5, 3, 2]
