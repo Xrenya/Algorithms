@@ -38,3 +38,19 @@ class Solution:
                 output[-1].append(node.val)
                 queue.extend(node.children)
         return output
+    
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        def recursive(node, level):
+            if len(results) == level:
+                results.append([])
+            results[level].append(node.val)
+            for child in node.children:
+                recursive(child, level + 1)
+            
+            
+            
+        results = []
+        if root is not None:
+            recursive(root, 0)
+        return results
