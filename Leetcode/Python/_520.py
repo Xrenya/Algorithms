@@ -1,5 +1,20 @@
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
+        capitals = 0
+        for char in word:
+            if char.isupper():
+                capitals += 1
+        if capitals == 1 and word[0].isupper():
+            return True
+        elif capitals == 0:
+            return True
+        elif capitals == len(word):
+            return True
+        else:
+            return False
+        
+class Solution:
+    def detectCapitalUse(self, word: str) -> bool:
         caps = False
         low = False
         first = False
