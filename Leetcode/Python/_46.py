@@ -1,4 +1,22 @@
 class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        def backtrack(first):
+            if first == n:
+                output.append(nums[:])
+                return
+            for i in range(first, n):
+                nums[i], nums[first] = nums[first], nums[i] 
+                backtrack(first + 1)
+                nums[i], nums[first] = nums[first], nums[i] 
+            return
+
+        output = []
+        n = len(nums)
+        backtrack(0)
+        return output
+    
+    
+class Solution:
     result = []
     
     def backtrack(self, current, nums):
