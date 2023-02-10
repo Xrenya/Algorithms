@@ -1,5 +1,33 @@
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
+        max_distance = -1
+
+        queue = deque([])
+
+        ROWS, COLS = len(grid), len(grid[0])
+        for row in range(ROWS):
+            for col in range(COLS):
+                if grid[row][col]:
+                    queue.append((row, col, 1))
+        if len(queue) == 0 or len(queue) == ROWS * COLS:
+            return max_distance
+
+        DIRS = ((-1, 0), (0, -1), (1, 0), (0, 1))
+        while queue:
+            cur_row, cur_col, cur_dist = queue.popleft()
+            for x, y in DIRS:
+                row = cur_row + x
+                col = cur_col + y
+                if 0 <= row < ROWS and 0 <= col < COLS and grid[row][col] == 0:
+                    max_distance = max(max_distance, cur_dist + 1)
+                    grid[row][col] = cur_dist + 1
+                    queue.append((row, col, cur_dist + 1))
+
+        return max_distance - 1
+
+    
+class Solution:
+    def maxDistance(self, grid: List[List[int]]) -> int:
         dirs = ((1, 0), (-1, 0), (0, 1), (0, -1))
         ROWS = len(grid)
         COLS = len(grid[0])
