@@ -3,6 +3,19 @@ class Solution:
         l = -1
         r = len(nums)
         while l < r - 1:
+            m = l + (r - l) // 2
+            if nums[m] >= target:
+                r = m
+            else:
+                l = m
+        return r
+    
+
+class Solution:
+    def searchInsert(self, nums: List[int], target: int) -> int:
+        l = -1
+        r = len(nums)
+        while l < r - 1:
             mid = (r + l) // 2
             if nums[mid] == target:
                 return mid
