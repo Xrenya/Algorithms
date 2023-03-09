@@ -6,9 +6,9 @@
 
 class Solution:
     def detectCycle(self, head):
-        slow = fast = head
-        if slow is None:
+        if head is None:
             return slow
+        slow = fast = head
         
         while fast is not None and fast.next is not None:
             fast = fast.next.next
