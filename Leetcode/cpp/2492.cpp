@@ -22,7 +22,6 @@ public:
         }
         return answer;
     }
-
     int minScore(int n, vector<vector<int>>& roads) {
         vector<vector<pair<int, int>>> adj(n + 1);
         for (auto& road : roads) {
