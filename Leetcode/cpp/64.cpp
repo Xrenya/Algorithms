@@ -1,5 +1,34 @@
 class Solution {
 public:
+    // 2-D solution without extra space: O(1)
+    int minPathSum(vector<vector<int>>& grid) {
+      int COLS = grid[0].size(), ROWS = grid.size();
+      for (int row = 1; row < ROWS; row++) {
+        grid[row][0] += grid[row - 1][0];
+      }
+
+      for (int col = 1; col < COLS; col++) {
+        grid[0][col] += grid[0][col - 1];
+      }
+
+      for (int row = 1; row < ROWS; row++) {
+        for (int col = 1; col < COLS; col++) {
+          grid[row][col] = min(grid[row][col] + grid[row][col - 1], grid[row][col] + grid[row - 1][col]);
+        }
+      }
+      //Print matrix 
+      // for (int row = 0; row < ROWS; row++) {
+      //   for (int col = 0; col < COLS; col++) {
+      //     std::cout << grid[row][col] << " ";
+      //   } 
+      //   std::cout << std::endl;
+      // }
+      return grid[ROWS - 1][COLS - 1];
+    }
+};
+
+class Solution {
+public:
     // 1-D solution
     int minPathSum(vector<vector<int>>& grid) {
       int COLS = grid[0].size(), ROWS = grid.size();
