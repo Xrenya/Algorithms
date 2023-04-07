@@ -1,5 +1,29 @@
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
+        def dfs(row, col):
+            if row < 0 or row > ROWS - 1 or col < 0 or col > COLS - 1 or grid[row][col] == 0:
+                return
+            if 0 <= row <= ROWS - 1 and 0 <= col <= COLS - 1 and grid[row][col] == 1:
+                grid[row][col] = 0
+                for r, c in ((-1, 0), (0, -1), (1, 0), (0, 1)):
+                    dfs(row + r, col + c)
+                return
+            return
+        ROWS = len(grid)
+        COLS = len(grid[0])
+        for row in range(ROWS):
+            for col in range(COLS):
+                if (row == 0 or col == 0 or row == ROWS - 1 or col == COLS - 1) and grid[row][col] == 1:
+                    dfs(row, col)
+        count = 0
+        for row in range(ROWS):
+            for col in range(COLS):
+                if grid[row][col] == 1:
+                    count += 1
+        return count
+    
+class Solution:
+    def numEnclaves(self, grid: List[List[int]]) -> int:
         queue = deque([])
         ROWS = len(grid)
         COLS = len(grid[0])
