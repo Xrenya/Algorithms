@@ -1,5 +1,14 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
+        minmum = min(len(word1), len(word2))
+        word = ''
+        for letter in zip(word1, word2):
+            word += letter[0] + letter[1]
+        return word + word1[minmum:] + word2[minmum:]
+    
+    
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
         string = ""
         lenght_1 = len(word1)
         lenght_2 = len(word2)
