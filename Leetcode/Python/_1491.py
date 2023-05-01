@@ -11,6 +11,7 @@ class Solution:
             acc += num
         return (acc - minimum - maximum) / (len(salary) - 2)
         
+
 class Solution:
     def average(self, salary: List[int]) -> float:
-        return (sum(salary) - max(salary) - min(salary)) / (len(salary) - 2)
+        return (sum(salary) - min(salary) - max(salary)) / (len(salary) - 2)
