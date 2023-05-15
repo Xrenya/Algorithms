@@ -5,6 +5,21 @@
 #         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        fast = slow = waiting = head
+        for _ in range(k - 1):
+            if fast.next is None:
+                return -1
+            fast = fast.next
+            waiting = waiting.next
+        while fast and fast.next:
+            fast = fast.next
+            slow = slow.next
+        slow.val, waiting.val = waiting.val, slow.val
+        return head
+    
+    
+class Solution:
+    def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         temp = head
         array = []
         while temp:
@@ -22,11 +37,6 @@ class Solution:
         return head.next
             
         
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
     def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         if head is None or head.next is None:
