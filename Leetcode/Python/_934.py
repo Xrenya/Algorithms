@@ -1,10 +1,5 @@
 class Solution:
     def shortestBridge(self, grid: List[List[int]]) -> int:
-        def pprint(grid):
-            for row in grid:
-                print(row)
-            print()
-
         def dfs(row, col):
             if 0 <= row < ROWS and 0 <= col < COLS and (row, col) not in visited and grid[row][col]:
                 grid[row][col] = 2
