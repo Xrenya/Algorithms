@@ -19,7 +19,6 @@ class Solution:
                 counter[num] = 0
             counter[num] += 1
         lst = sorted(counter.items(), key=lambda item: item[1])[-k:]
-        print(lst)
         out = [(lambda x: x[0])(x) for x in lst]
         
         return out
