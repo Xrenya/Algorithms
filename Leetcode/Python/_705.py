@@ -23,7 +23,38 @@ class MyHashSet:
         mod = key % NUM_BUCKETS
         return key in self.buckets[mod]
       
-      
+        
+class MyHashSet:
+
+    def __init__(self):
+        self.array = []
+        self.mapping = {}
+        self.index = 0
+
+    def add(self, key: int) -> None:
+        if key not in self.mapping:
+            self.mapping[key] = self.index
+            self.array.append(key)
+            self.index += 1
+
+    def remove(self, key: int) -> None:
+        if key in self.mapping:
+            index = self.mapping[key]
+            value = self.array[-1]
+            remove_index = self.mapping[value]
+            self.array[index], self.array[remove_index] = self.array[remove_index], self.array[index]
+            self.mapping[value] = index
+            self.mapping[key] = remove_index
+            del self.mapping[key]
+            self.index -= 1
+            self.array.pop()
+
+    def contains(self, key: int) -> bool:
+        if key in self.mapping:
+            return True
+        return False
+
+
 class MyHashSet:
 
     def __init__(self):
