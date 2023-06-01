@@ -1,5 +1,32 @@
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+        def bfs(x, y):
+            visited = set()
+            queue = deque([(x, y, 1)])
+            while queue:
+                row, col, dist = queue.popleft()
+                visited.add((row, col))
+                for r, c in DIRS:
+                    new_row = row + r
+                    new_col = col + c
+                    if 0 <= new_row < ROWS and 0 <= new_col < COLS and grid[new_row][new_col] == 0 and (new_row, new_col) not in visited:
+                        queue.append((new_row, new_col, dist + 1))
+                        grid[new_row][new_col] = dist + 1
+            return
+
+        if grid[-1][-1] != 0 or grid[0][0] == 1:
+            return -1
+        ROWS = len(grid)
+        COLS = len(grid[0])
+        DIRS = ((-1, 0), (-1, -1), (0, -1), (1, -1), (0, 1), (1, 1), (1, 0), (-1, 1))
+        grid[0][0] = 1
+        bfs(0, 0)
+        print(grid)
+        return grid[-1][-1] if grid[-1][-1] > 0 else -1
+
+
+class Solution:
+    def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         def bfs(queue):
             visited = set()
             while queue:
@@ -20,6 +47,7 @@ class Solution:
         grid[0][0] = 1
         bfs(deque([(0, 0, 1)]))
         return grid[-1][-1] if grid[-1][-1] else -1
+    
     
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
