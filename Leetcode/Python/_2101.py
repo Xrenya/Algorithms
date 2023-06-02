@@ -23,8 +23,16 @@ class Solution:
                         queue.append(neighbour)
             return len(visited)
 
+        def dfs(node, visited):
+            visited.add(node)
+            for neighbour in mapping[node]:
+                if neighbour not in visited:
+                    dfs(neighbour, visited)
+
         maximum = 0
         for i in range(n):
-            maximum = max(maximum, bfs(i))
+            visited = set()
+            dfs(i, visited)
+            maximum = max(maximum, len(visited))
 
         return maximum
