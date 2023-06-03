@@ -14,4 +14,3 @@ class Solution:
             for adj in graph[empID]:
                 queue.append((adj, time + informTime[empID]))
         return ans
-
