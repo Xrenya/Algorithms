@@ -28,6 +28,7 @@ class Solution:
                     union_fold.union(u, v)
         return len(set(union_fold.list))
       
+        
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         def dfs(row):
