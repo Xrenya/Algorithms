@@ -1,5 +1,13 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
+        for char in letters:
+            if target < char:
+                return char
+        return letters[0]
+    
+    
+class Solution:
+    def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         dist = float("inf")
         out = None
         for s in letters:
