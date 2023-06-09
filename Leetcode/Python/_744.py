@@ -10,3 +10,4 @@ class Solution:
         if out is None:
             return letters[0]
         return out
+   
