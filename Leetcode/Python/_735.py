@@ -13,7 +13,33 @@ class Solution:
                 queue.append(a)
         return queue
 
-                 
+
+class Solution:
+    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+        q = deque()
+        
+        for a in asteroids:
+            add_a = True
+            while len(q) > 0 and q[-1] > 0 and a < 0:
+                
+                if q[-1] < abs(a):
+                    q.pop()
+                    continue
+                
+                elif q[-1] == abs(a):
+                    q.pop()
+                    
+                add_a = False
+                break
+            if add_a:
+                q.append(a)
+        output = []
+        for i in range(len(q)):
+            output.append(q[i])
+            
+        return output
+
+
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         q = [asteroids[0]]
