@@ -1,3 +1,4 @@
+
 |  #  |      Title     |   Solutions   | Difficulty  | Tag                   
 |-----|----------------|---------------|-------------|-------------
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[Python](https://github.com/Xrenya/Algorithms/blob/master/Leetcode/Python/_1816.py)|Easy|String|
