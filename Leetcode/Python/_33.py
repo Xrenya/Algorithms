@@ -1,4 +1,31 @@
 class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        l = 0
+        r = len(nums) - 1
+        while l <= r:
+            m = l + (r - l) // 2
+            if nums[m] > nums[-1]:
+                l = m + 1
+            else:
+                r = m - 1
+        print(r)
+        def binsearch(nums, l, r, target):
+            while l <= r:
+                m = l + (r - l) // 2
+                if nums[m] <= target:
+                    l = m + 1
+                else:
+                    r = m - 1
+            return r
+
+        out = binsearch(nums, 0, l - 1, target)
+        if 0 <= out < len(nums) and nums[out] == target:
+            return out
+        idx = binsearch(nums, l, len(nums) - 1, target)
+        return idx if 0 <= idx < len(nums) and nums[idx] == target else -1
+        
+
+class Solution:
     def search(self, nums, target):
         """
         :type nums: List[int]
