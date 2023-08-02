@@ -1,5 +1,24 @@
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
+        def calc(heights, start, end):
+            if start > end:
+                return 0
+            min_index = start
+            for i in range(start, end + 1):
+                if heights[min_index] > heights[i]:
+                    min_index = i
+            return max(
+                heights[min_index] * (end - start + 1),
+                calc(heights, start, min_index - 1),
+                calc(heights, min_index + 1, end)
+            )
+            
+                
+        return calc(heights, 0, len(heights) - 1)
+
+
+class Solution:
+    def largestRectangleArea(self, heights: List[int]) -> int:
         n = len(heights)
         stack = []
         left = [0] * n
