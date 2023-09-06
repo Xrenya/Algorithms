@@ -6,7 +6,8 @@ def merge(a, b):
     i = 0
     j = 0
     c = [0] * (len(a) + len(b))
-    while i + j < len(c):
+    # while i + j < len(c):
+    while i < len(a) or j < len(b):
         if j == len(b) or (i < len(a) and a[i] < b[j]):
             c[i + j] =  a[i]
             i += 1
