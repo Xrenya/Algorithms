@@ -4,9 +4,7 @@ def merge_sort(nums):
 
     pivot = random.randint(0, len(nums) - 1) # pivot = len(nums) // 2
     left = merge_sort(nums[:pivot])
-    print(left)
     right = merge_sort(nums[pivot:])
-    print(right)
     return merge(left, right)
     
 def merge(left, right):
