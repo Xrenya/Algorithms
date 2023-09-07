@@ -6,10 +6,10 @@ import random
 
 
 def prefix(probs):
-    prob = probs
-    for i in range(1, len(prob)):
-        prob[i] += probs[i - 1]
-    return prob
+    proba = probs.copy()
+    for i in range(1, len(probs)):
+        proba[i] += proba[i - 1]
+    return proba
 
 def weighted_choice(probs, size):
     p = prefix(probs)
