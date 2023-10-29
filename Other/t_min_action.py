@@ -15,9 +15,33 @@ def min_actions_to_construct_string(s, actions):
     # Возвращаем минимальное количество действий, чтобы построить всю строку
     return actions_count[len(s)]
 
-# Пример использования
+def calculate_actions(string):
+    n = len(string)
+    actions = {}
+    
+    # Initialize actions for individual characters
+    for i in range(n):
+        actions[i + 1] = 1
+    
+    # Calculate actions for substrings of length > 1 using dynamic programming
+    for length in range(2, n + 1):
+        for start in range(n - length + 1):
+            end = start + length - 1
+            substring = string[start:end + 1]
+            actions[length] = min(actions.get(length, float('inf')), actions.get(length - 1, float('inf')) + 1)
+            
+            # Check if the substring can be compressed (e.g., "aaa" can be compressed to "a3")
+            for sub_length in range(1, length):
+                if length % sub_length == 0 and substring[:sub_length] * (length // sub_length) == substring:
+                    actions[length] = min(actions.get(length, float('inf')), actions.get(sub_length, float('inf')) + 2)
+    
+    return actions
+
+# Example usage
 string = "abacaba"
-actions = {1: 1, 2: 1, 3: 1, 4: 3, 5: 2, 6: 1, 7: 2}
+actions = calculate_actions(string)
+print("Actions dictionary:", actions)
+# actions = {1: 1, 2: 1, 3: 1, 4: 3, 5: 2, 6: 1, 7: 2}
 # В данном примере actions представляет собой словарь,
 # где ключи - это длины подстрок, а значения - количество действий,
 # необходимых для вставки подстроки.
