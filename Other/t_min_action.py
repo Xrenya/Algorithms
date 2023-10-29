@@ -18,5 +18,10 @@ def min_actions_to_construct_string(s, actions):
 # Пример использования
 string = "abacaba"
 actions = {1: 1, 2: 1, 3: 1, 4: 3, 5: 2, 6: 1, 7: 2}
+# В данном примере actions представляет собой словарь,
+# где ключи - это длины подстрок, а значения - количество действий,
+# необходимых для вставки подстроки.
+# Функция min_actions_to_construct_string вычисляет минимальное количество действий,
+# необходимых для построения всей строки s
 total_actions = min_actions_to_construct_string(string, actions)
 print("Минимальное количество действий:", total_actions)
