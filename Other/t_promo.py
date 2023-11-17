@@ -9,7 +9,6 @@ import pytest
 def max_save(prices, k, x):
     prices = [-x for x in prices]
     heapq.heapify(prices)
-    print(prices)
     while k:
         max_price = -heapq.heappop(prices)
         diff = max(max_price - x, 0)
