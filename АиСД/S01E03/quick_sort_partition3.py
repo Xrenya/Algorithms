@@ -7,7 +7,7 @@ def quick_sort(a, l, r):
     a[pivot_index], a[l] = a[l], a[pivot_index]
     less_than, greater_than = partition3(a, l, r)
     quick_sort(a, l, less_than - 1)
-    quick_sort(a, r, greater_than + 1)
+    quick_sort(a, greater_than, r)
     
 def partition3(a, l, r):
     less_than = l
