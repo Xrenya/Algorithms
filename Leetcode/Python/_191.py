@@ -5,3 +5,4 @@ class Solution:
             if n >> i & 1:
                 count += 1
         return count
+
