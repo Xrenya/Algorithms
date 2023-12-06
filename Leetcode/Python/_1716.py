@@ -15,6 +15,19 @@ class Solution:
                 i += 1
                 acc += i+1
         return acc
-                
+
+
+class Solution:
+    def totalMoney(self, n: int) -> int:
+        acc = 0
+        week = 1
+        while n > 0:
+            for day in range(min(n, 7)):
+                acc += week + day
+
+            n -= 7
+            week += 1
+
+        return acc
                 
         
