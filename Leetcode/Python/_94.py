@@ -5,6 +5,16 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        def inorder(node):
+            if node:
+                yield from inorder(node.left)
+                yield node.val
+                yield from inorder(node.right)
+
+        return [x for x in inorder(root
+
+class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         output = []
         def iot(root):
