@@ -1,5 +1,16 @@
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
+        mapping = {}
+        for a in arr:
+            if a not in mapping:
+                mapping[a] = 0
+            mapping[a] += 1
+        
+        return len(mapping) == len(set(mapping.values()))
+
+
+class Solution:
+    def uniqueOccurrences(self, arr: List[int]) -> bool:
         hashMap = {}
         for num in arr:
             if num not in hashMap:
@@ -14,6 +25,7 @@ class Solution:
             else:
                 return False
         return True
+
 
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
@@ -30,7 +42,8 @@ class Solution:
             else:
                 return False
         return True
-      
+
+
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         hashMap = {}
@@ -40,7 +53,8 @@ class Solution:
             else:
                 hashMap[num] += 1
         return len(hashMap) == len(set(hashMap.values()))
-    
+
+
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         hashMap = {}
