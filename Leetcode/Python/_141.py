@@ -3,6 +3,20 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        if not head:
+            return None
+        slow = fast = head
+        fast = fast.next
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+            if fast == slow:
+                return True
+                
+        return False
+
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
@@ -16,6 +30,7 @@ class Solution:
             if fast == slow:
                 return True
         return False
+
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
