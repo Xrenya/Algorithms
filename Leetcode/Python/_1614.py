@@ -1,5 +1,17 @@
 class Solution:
     def maxDepth(self, s: str) -> int:
+        max_count, count = 0, 0
+        for c in s:
+            if c == "(":
+                count += 1
+            elif c == ")":
+                count -= 1
+            max_count = max(max_count, count)
+        return max_count
+
+
+class Solution:
+    def maxDepth(self, s: str) -> int:
         maxDepth = 0
         depth = 0
         for string in s:
