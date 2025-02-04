@@ -1,5 +1,18 @@
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
+        acc = 0
+        cur = nums[0]
+        for i in range(1, len(nums)):
+            if nums[i] <= nums[i - 1]:
+                acc = max(acc, cur)
+                cur = 0
+            cur += nums[i]
+
+        return max(acc, cur)
+
+
+class Solution:
+    def maxAscendingSum(self, nums: List[int]) -> int:
         array = []
         count = nums[0]
         for i in range(1, len(nums)):
@@ -10,7 +23,8 @@ class Solution:
                 count = nums[i]
         array.append(count)
         return max(array)
-      
+
+
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
         count = nums[0]
@@ -23,7 +37,8 @@ class Solution:
             if count < temp:
                 count = temp
         return count
-      
+
+
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
         temp = 0
