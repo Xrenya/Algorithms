@@ -30,7 +30,7 @@ void show(LINKED_LIST *top) {
   }
 }
 
-void remove_node(LINKED_LIST **top, int val) {
+void remove_node(LINKED_LIST **top, int val) { // since there is a copy of the pointer so we have to access the pointer in the main using **
     LINKED_LIST *cur = *top;
     LINKED_LIST *prev = NULL;
 
@@ -88,7 +88,7 @@ int main(void) {
   remove_node(&top, 2);
   show(top);
 
-  # free space
+  // free space
   while (top) {
       top = pop(top);
   }
