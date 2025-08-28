@@ -87,5 +87,10 @@ int main(void) {
   show(top);
   remove_node(&top, 2);
   show(top);
+
+  # free space
+  while (top) {
+      top = pop(top);
+  }
   return 0;
 }
