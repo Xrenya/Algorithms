@@ -6,7 +6,7 @@
 # sample() -> 30
 
 
-import random_int(a, b)
+import random_int
 
 
 class HashList:
