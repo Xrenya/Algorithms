@@ -32,7 +32,7 @@ int main() {
     int n[] = {5, 0, 4, 10, -10, 3, 2, 1, -1, -2};
     int left = 0, right = sizeof(n) / sizeof(int) - 1;
     qsort(n, left, right);
-    for (int i = 0; i < right; ++i) {
+    for (int i = 0; i <= right; ++i) {
         printf("%d ", n[i]);
     }
     return 0;
