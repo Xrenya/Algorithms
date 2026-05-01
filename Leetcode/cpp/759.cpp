@@ -29,7 +29,7 @@ public:
         }
         std::sort(data.begin(), data.end(), [](const std::pair<int, int>& a, const std::pair<int, int>& b) {
             if (a.first != b.first) return a.first < b.first;
-            return a.second > b.second; // При равном времени сначала +1 (начало), потом -1 (конец)
+            return a.second > b.second;
         });
         std::vector<Interval> output;
         int last = -1;
