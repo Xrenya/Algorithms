@@ -1,3 +1,9 @@
+#include <iostream>
+#include <vector>
+#include <cassert>
+#include <string>
+#include <climits>
+
 class Solution {
 public:
   int minimumTotal(std::vector<std::vector<int>>& triangle) {
@@ -31,3 +37,15 @@ public:
     return output;  
   }
 };
+
+
+int main() {
+  Solution sol;
+  std::vector<std::vector<int>> triangle = { {2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3} };
+  int expected_output = 11;
+  int output = sol.minimumTotal(triangle);
+  assert ((output == expected_output) && "Test #1 failed!");
+  std::cout << "Tests are passed!" << std::endl;
+  
+  return 0;
+}
