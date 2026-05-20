@@ -76,6 +76,28 @@ public:
         return output;
     }
 };
+/*
+struct CmpMinHeap {
+    bool operator()(std::pair<int, std::pair<int, int>> a, 
+                    std::pair<int, std::pair<int, int>> b) {
+        return a.first > b.first;
+    }
+};
+
+std::priority_queue<
+    std::pair<int, std::pair<int, int>>, 
+    vector<std::pair<int, std::pair<int, int>>>, 
+    CmpMinHeap
+> minHeap;  // no need to pass to constructor
+
+using PairType = std::pair<int, std::pair<int, int>>;
+
+auto cmpMinHeap = [](PairType a, PairType b) {
+    return a.first > b.first;
+};
+
+std::priority_queue<PairType, vector<PairType>, decltype(cmpMinHeap)> minHeap(cmpMinHeap);
+*/
 
 int main() {
     Solution sol;
