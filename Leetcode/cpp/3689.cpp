@@ -5,11 +5,11 @@
 
 class Solution {
 public:
-    long long maxTotalValue(std::vector<int>& nums, int k) {
-        long long max = 0, min = INT_MAX;
+    long long maxTotalValue(vector<int>& nums, int k) {
+        long long max = LLONG_MIN, min = LLONG_MAX;
         for (auto num : nums) {
-            max = std::max<int>(max, num);
-            min = std::min<int>(min, num);
+            max = std::max<long long>(max, num);
+            min = std::min<long long>(min, num);
         }
         return (max - min) * k;
     }
