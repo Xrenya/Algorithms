@@ -1,9 +1,9 @@
 class Solution {
 public:
-    bool findSafeWalk(std::vector<std::vector<int>>& grid, int health) {
+    bool findSafeWalk(vector<vector<int>>& grid, int health) {
         int rows = grid.size();
         int cols = grid[0].size();
-        std::vector<std::vector<int>> dp(rows, std::vector<int>(cols, -1));
+        vector<vector<int>> dp(rows, std::vector<int>(cols, -1));
         std::deque<std::vector<int>> dq;
         
         if (grid[0][0]) {
@@ -36,12 +36,10 @@ public:
                 }
 
                 if (next_col >=0 && next_col < cols && next_row >= 0 && next_row < rows && (grid[next_row][next_col] == 0 || (grid[next_row][next_col] == 1 && chealth > 0))) {
-                    if (grid[next_row][next_col] == 0 && chealth > dp[next_row][next_col]) {
-                        dp[next_row][next_col] = chealth;
-                        dq.push_back({next_row, next_col, chealth});
-                    } else if (chealth - 1 > dp[next_row][next_col]) {
-                        dp[next_row][next_col] = chealth - 1;
-                        dq.push_back({next_row, next_col, chealth - 1});
+                    int next_health = chealth - grid[next_row][next_col];
+                    if (next_health >= 1 && next_health > dp[next_row][next_col])  {
+                        dp[next_row][next_col] = next_health;
+                        dq.push_back({next_row, next_col, next_health});
                     }
                 } 
             }
