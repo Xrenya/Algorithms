@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int bfs(int& n, vector<vector<pair<int, int>>>& adj) {
-        vector<bool> visit(n + 1);
-        queue<int> q;
+    int bfs(int& n, std::vector<std::vector<std::pair<int, int>>>& adj) {
+        std::vector<bool> visit(n + 1);
+        std::queue<int> q;
         int answer = numeric_limits<int>::max();
-
+         
         q.push(1);
         visit[1] = true;
 
@@ -21,9 +21,10 @@ public:
             }
         }
         return answer;
+
     }
-    int minScore(int n, vector<vector<int>>& roads) {
-        vector<vector<pair<int, int>>> adj(n + 1);
+    int minScore(int n, std::vector<std::vector<int>>& roads) {
+        std::vector<std::vector<std::pair<int, int>>> adj(n + 1);
         for (auto& road : roads) {
             adj[road[0]].push_back({road[1], road[2]});
             adj[road[1]].push_back({road[0], road[2]});
