@@ -1,5 +1,32 @@
 class Solution {
 public:
+    std::string stringfy(int left, int right) {
+        if (right == left) {
+            return std::format("{}", left);
+        }
+        return std::format("{}->{}", left, right);
+
+    }
+
+    std::vector<std::string> summaryRanges(std::vector<int>& nums) {
+        if (nums.size() == 0) return {};
+        std::vector<std::string> output;
+        int left = 0;
+        int right = 1;
+        for ( ; right < nums.size(); ++right) {
+            if (nums[right - 1] + 1 == nums[right]) {
+                continue;
+            }
+            output.push_back(stringfy(nums[left], nums[right - 1]));
+            left = right;
+        }
+        output.push_back(stringfy(nums[left], nums[right - 1]));
+        return output;
+    }
+};
+
+class Solutionv1 {
+public:
     vector<string> summaryRanges(vector<int>& nums) {
         vector<string> ranges;
 
@@ -22,7 +49,7 @@ public:
 };
 
 
-class Solution {
+class Solutionv2 {
 public:
   string stringfy(int& a, int& b){
     if (a == b) {
