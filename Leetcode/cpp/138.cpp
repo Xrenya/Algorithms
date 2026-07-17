@@ -55,6 +55,29 @@ public:
         return dfs(head);
     }
 };
+
+class SolutionV2 {
+private:
+    std::unordered_map<Node*, Node*> umap;
+
+public:
+    Node* copyRandomList(Node* head) {
+        if (head == nullptr) return nullptr;
+        if (umap.contains(head)) {
+            return umap[head];
+        }
+        Node * node = new Node(head->val);
+        umap[head] = node;
+        if (head->random) {
+            node->random = copyRandomList(head->random);
+        }
+        if (head->next) {
+            node->next = copyRandomList(head->next);
+        }
+        return node;
+    }
+};
+
 int main() {
     Solution sol;
     Node* head = new Node(1);
