@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* reverseBetween(ListNode* head, int left, int right) {
+    ListNode* reverseBetweenDfs(ListNode* head, int left, int right) {
         if (head == nullptr) {
             return head;
         }
@@ -42,5 +42,31 @@ public:
         };
         backtrack(rightNode, left, right);
         return head;
+    }
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        if (head == nullptr || left == right) {
+            return head;
+        }
+        ListNode * prev = nullptr;
+        ListNode * dummy = new ListNode(0, head);
+        ListNode * leftNode = dummy;
+        for (int i = 0; i < left - 1; ++i) {
+            leftNode = leftNode->next;
+        }
+        ListNode * tail = leftNode->next;
+        ListNode * preLeft = leftNode;
+        ListNode * cur = leftNode->next;
+        for (int i = 0; i <= right - left; ++i) {
+            ListNode * nextNode = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = nextNode;
+        }
+        preLeft->next = prev;
+        tail->next = cur;
+        ListNode * returnNode = dummy->next;
+        delete dummy;
+        return returnNode;
+
     }
 };
