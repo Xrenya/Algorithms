@@ -21,16 +21,25 @@ struct ListNode {
 }
 };
 
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 private:
-    ListNode* ptr = nullptr;
+    ListNode * ptr = nullptr;
     int mid = 0;
-
 public:
-    bool dfs(ListNode*& node, int index) {
+    bool dfs(ListNode * node, int index) {
         if (node != nullptr) {
             if (!dfs(node->next, index + 1)) {
-                if (index >= mid) {
+                if (mid <= index) {
                     std::swap(ptr->val, node->val);
                     ptr = ptr->next;
                 }
@@ -38,20 +47,33 @@ public:
         }
         return false;
     }
-
-    ListNode* reverseList(ListNode* head) {
-        int count = 0;
-        ListNode* node = head;
-        while (node) {
-            node = node->next;
-            ++count;
-        }
-        mid = count / 2;
+    ListNode* reverseListRecursive(ListNode* head) {
         ptr = head;
+        int total = 0;
+        ListNode * cur = head;
+        while (cur != nullptr) {
+            cur = cur->next;
+            ++total;
+        }
+        mid = total / 2;
         dfs(head, 0);
         return head;
     }
+    ListNode* reverseList(ListNode* head) {
+
+        ListNode * prev = nullptr;
+        ListNode * cur = head;
+        while (cur != nullptr) {
+            ListNode * nextNode = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = nextNode;
+        }
+
+        return prev;
+    }
 };
+
 bool cmpListNodes(ListNode* left, ListNode* right) {
     while (left != nullptr && right != nullptr) {
         if (left->val == right->val) {
