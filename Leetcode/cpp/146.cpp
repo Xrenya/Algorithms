@@ -103,4 +103,104 @@ public:
  * LRUCache* obj = new LRUCache(capacity);
  * int param_1 = obj->get(key);
  * obj->put(key,value);
+
+class Node {
+public:
+    int key;
+    int val;
+    Node* prev;
+    Node* next;
+    
+    Node(int k, int v) : key(k), val(v), prev(nullptr), next(nullptr) {}
+    ~Node() = default;
+};
+
+
+class TwinListNode {
+public:
+    Node* head;
+    Node* tail;
+    int size = 0;
+    int total = 0;
+    std::unordered_map<int, Node*> umap;
+
+    TwinListNode(int size) : size(size) {
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
+        head->next = tail;
+        tail->prev = head;
+    }
+    ~TwinListNode() {
+        Node* cur = head;
+        while (cur) {
+            Node* nxt = cur->next;
+            delete cur;
+            cur = nxt;
+        }
+    }
+
+    void remove(Node* node) {
+        --total;
+        Node* prevNode = node->prev;
+        Node* nextNode = node->next;
+        prevNode->next = nextNode;
+        nextNode->prev = prevNode;
+        delete node;
+    }
+
+    int get(int key) {
+        if (umap.find(key) == umap.end())  {
+            return -1;
+        }
+        Node* removeNode = umap[key];
+        int value = removeNode->val;
+        insert(key, value);
+        return value;
+    }
+
+    void insert(int key, int value) {
+        if (umap.find(key) != umap.end())  {
+            Node* removeNode = umap[key];
+            remove(removeNode);
+        }
+        ++total;
+        Node* newNode = new Node(key, value);
+        umap[key] = newNode;
+        newNode->next = head->next;
+        head->next->prev = newNode;
+        newNode->prev = head;
+        head->next = newNode;
+        if (total > size) {
+            --total;
+            Node* removeNode = tail->prev;
+            Node* preRemove = removeNode->prev;
+            preRemove->next = tail;
+            tail->prev = preRemove;
+            umap.erase(removeNode->key);
+            delete removeNode;
+        }
+    }
+};
+class LRUCache {
+public:
+    TwinListNode* list = nullptr;
+
+    ~LRUCache() {
+        delete list;
+    }
+
+    LRUCache(int capacity) {
+        list = new TwinListNode(capacity);
+    }
+    
+    int get(int key) {
+        return list->get(key);
+    }
+    
+    void put(int key, int value) {
+        list->insert(key, value);
+    }
+};
+
+
  */
