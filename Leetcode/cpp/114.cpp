@@ -15,7 +15,7 @@ public:
         if (root == nullptr) {
             return root;
         }
-        if (root->left == nullptr || root->right == nullptr) {
+        if (root->left == nullptr && root->right == nullptr) {
             return root;
         }
         TreeNode * left = dfs(root->left);
