@@ -38,3 +38,45 @@ public:
     return new_head;
     }
 };
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class SolutionV2 {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        if (k == 0 || head == nullptr) {
+            return head;
+        }
+        int counter = 0;
+        ListNode* tmp = head;
+        while (tmp) {
+            tmp = tmp->next;
+            ++counter;
+        }
+        k %= counter;
+        ListNode dummy = ListNode(0, head);
+        ListNode* prev = &dummy;
+        ListNode* cur = prev;
+        for (int i = 0; i < k; ++i) {
+            cur = cur->next;
+        }
+
+        while (cur != nullptr && cur->next != nullptr) {
+            cur = cur->next;
+            prev = prev->next;
+        }
+        
+        cur->next = dummy.next;
+        ListNode * tail = prev->next;
+        prev->next = nullptr;
+        return tail;
+    }
+};
