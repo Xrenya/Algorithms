@@ -2,6 +2,27 @@
 #include <vector>
 #include <cassert>
 
+class SolutionV2 {
+public:
+    int findMin(std::vector<int>& nums) {
+        int left = 0;
+        int right = static_cast<int>(nums.size()) - 1; 
+        
+        while (left < right) {
+            int m = left + (right - left) / 2;
+            
+            if (nums[m] > nums[right]) {
+                left = m + 1;
+            } else {
+                right = m;
+            }
+        }
+        
+        return nums[left];
+    }
+};
+
+
 class Solution {
 public:
     int findMin(std::vector<int>& nums) {
