@@ -4,6 +4,33 @@
 #include <string>
 #include <climits>
 
+class SolutionV2 {
+public:
+  void pprint(const std::vector<int>& a) {
+    for (int num : a) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+  }
+  int lengthOfLIS(vector<int>& nums) {
+    if (nums.size() == 0) return 0;
+
+    std::vector<int> tails;
+    tails.reserve(nums.size());
+
+    for (int num : nums) {
+        auto it = std::lower_bound(tails.begin(), tails.end(), num);
+
+        if (it == tails.end()) {
+            tails.push_back(num);
+        } else {
+            *it = num;
+        }
+    }
+    return (int)(tails.size());
+  }
+};
+
 class Solution {
 public:
   int lengthOfLIS(std::vector<int>& nums) {
