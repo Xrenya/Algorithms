@@ -16,8 +16,8 @@ def weighted_choice(probs, size):
     output = []
     for i in range(size):
         proba = random.random()
-        for i in range(len(p)):
-            if proba <= p[i]:
-                output.append(i)
+        for j in range(len(p)):
+            if proba <= p[j]:
+                output.append(j)
                 break
     return output
