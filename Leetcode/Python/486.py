@@ -1,7 +1,16 @@
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
+        @lru_cache(None)
+        def dfs(left, right):
+            if left > right:
+                return 0
+            left_win = nums[left] - dfs(left + 1, right)
+            right_win = nums[right] - dfs(left, right - 1)
+            return max(left_win, right_win)
+        return dfs(0, len(nums) - 1) >= 0
+
         
-        def dfs(left, right, p1, p2, is_p1):
+        def dfsNotOptimal(left, right, p1, p2, is_p1):
             if left > right:
                 return p1 >= p2
             
@@ -21,4 +30,4 @@ class Solution:
                 is_true_right = dfs(left, right - 1, p1, p2, True)
                 p2 -= nums[right]
                 return is_true_left and is_true_right
-        return dfs(0, len(nums) - 1, 0, 0, True)
+        return dfs(0, len(nums) - 1) # dfs(0, len(nums) - 1, 0, 0, True)
