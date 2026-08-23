@@ -1,3 +1,33 @@
+class SolutionV2:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        left = matrix[0][0]
+        ROWS = len(matrix)
+        COLS = len(matrix[0])
+        right = matrix[-1][-1]
+        pos = -1
+
+        def isGood(num):
+            total = 0
+            i = ROWS - 1
+            j = 0
+            while i >= 0 and j < COLS:
+                if matrix[i][j] <= num:
+                    total += i + 1
+                    j += 1
+                else:
+                    i -= 1
+            return total
+
+        while left <= right:
+            mid = left + (right - left) // 2
+            if isGood(mid) >= k:
+                pos = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+        return pos
+        
+
 class HeapMin:
     def __init__(self):
         self.a = []
