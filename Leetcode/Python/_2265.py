@@ -21,3 +21,17 @@ class Solution:
 
         _, _, matches = dfs(root)
         return matches
+
+    def averageOfSubtreeV2(self, root: Optional[TreeNode]) -> int:
+        def dfs(node):
+            if not node:
+                return (0, 0)
+            left = dfs(node.left)
+            right = dfs(node.right)
+            mean = (left[0] + right[0] + node.val) // (left[1] + right[1] + 1)
+            if node.val == mean:
+                self.count += 1
+            return (left[0] + right[0] + node.val), (left[1] + right[1] + 1)
+        self.count = 0
+        dfs(root)
+        return self.count
