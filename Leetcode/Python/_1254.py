@@ -16,6 +16,4 @@ class Solution:
             for col in range(COLS):
                 if grid[row][col] == 0:
                     count += dfs(row, col)
-        # for row in range(ROWS):
-        #     print(*grid[row])
         return count
