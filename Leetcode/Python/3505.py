@@ -40,7 +40,9 @@ class Solution:
                 heappush(right, num)
                 right_size += 1
                 sum_r += num
+                
             balance()
+            
             if i >= x:
                 num = nums[i - x]
                 delayed[num] += 1
@@ -54,7 +56,9 @@ class Solution:
                     sum_r -= num
                     if num == right[0]:
                         prune(right, 1)
+                        
                 balance()
+                
             if i >= x - 1:
                 mid = -left[0]
                 ops[i] = sum_r - sum_l + mid * (left_size - right_size)
